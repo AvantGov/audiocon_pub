@@ -1,0 +1,297 @@
+/* plugging in the imgs here since the JS files aren't able to resolve the URL arguments 
+when handed in the with the style={} prop */
+
+#BenEng {
+    background-image: url("../../assets/img/employees/Bengwall.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#JohDee {
+    background-image: url("../../assets/img/employees/Jdeem.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#EriGon {
+    background-image: url("../../assets/img/employees/Egonzalez.jpeg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#JerTif {
+    background-image: url("../../assets/img/employees/Jtiffany.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#KriHod {
+    background-image: url("../../assets/img/employees/Khodgkins.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ScoDei {
+    background-image: url("../../assets/img/employees/Sdeitze.jpg");
+    background-position: top 25% left 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#CurEle {
+    background-image: url("../../assets/img/employees/Celethorp.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#EriSch {
+    background-image: url("../../assets/img/employees/Eschneider.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#CodRuh {
+    background-image: url("../../assets/img/employees/Cruhman.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#BreWri {
+    background-image: url("../../assets/img/employees/Bwright.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#DonLuc {
+    background-image: url("../../assets/img/employees/Dlucker.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#CamBis {
+    background-image: url("../../assets/img/employees/Cbishop.jpg");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#LiaZhe {
+    background-image: url("../../assets/img/employees/Lzhe.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#TriTif {
+    background-image: url("../../assets/img/employees/Ttiffany.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#AleCou {
+    background-image: url("../../assets/img/employees/Acouts.jpeg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#RobMur {
+    background-image: url("../../assets/img/employees/Rmurphy.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*  this is the actual styling for the page: */
+
+.TeamList {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -moz-linear-gradient(45deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+    background: -webkit-linear-gradient(45deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+    background: linear-gradient(45deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eef8f8",endColorstr="#1d6187",GradientType=1);
+    background-color: #EEAECA;
+}
+
+#endList {
+    width: 100%;
+}
+
+.TeamList__employeeContainer {
+    height: 100%;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.employeeContainer__employee {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin: 1% 0% 1% 0%;
+    border: 15px ridge #FFFF87;
+    border-radius: 25px;
+
+}
+
+
+.employee__img {
+    height: 450px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.employee__copyContainer {
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 5% 0 5% 0;
+}
+
+
+.copyContainer__name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+}
+
+.firstName {
+    color: #0B72B6;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    width: 100%;
+}
+
+.lastName {
+    color: #000000;
+    font-style: italic;
+    opacity: 40%;
+    font-weight: 1000;
+    margin-left: 5%;
+    width: 100%;
+
+}
+
+.copyContainer__rule {
+    width: 60%;
+    margin-top: 2%;
+    padding-top: .5%;
+    background-color: #000000;
+    border-radius: 25px;
+    opacity: 10%;
+    border-radius: 15px;
+}
+
+.copyContainer__info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2% 0% 2% 0%;
+}
+
+.info__position {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #000000;
+    opacity: 70%;
+    padding-bottom: 1.2%;
+}
+
+.info__years {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    font-style: italic;
+    letter-spacing: .75px;
+    opacity: 60%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .employeeContainer__employee {
+        width: 45%;
+    }
+    .employee__img {
+        height: 250px;
+    }
+    .copyContainer__name {
+        font-size: 2.2rem;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    .info__position {
+        font-size: 1.4rem;
+    }
+    .info__years {
+        font-size: 1.4rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .employeeContainer__employee {
+        margin-top: 5%;
+        width: 100%;
+    }
+    .TeamList__employeeContainer > :last-child {
+        margin-bottom: 9%;
+    }
+    .employee__img {
+        width: 100%;
+        height: 350px;
+    }
+    .copyContainer__info {
+        margin-bottom: 7%;
+    }
+    .copyContainer__name {
+        font-size: 2.2rem;
+        margin: 9% 0 3% 0;
+        padding: 0 0 0 0;
+    }
+    .copyContainer__rule {
+        display: none;
+    }
+    .info__position {
+        width: 100%;
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-bottom: 3%;
+    }
+    .info__years {
+        font-size: 1.4rem;
+        margin: 2% 0 2% 0;
+    }
+
+
+}

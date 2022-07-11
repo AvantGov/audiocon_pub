@@ -1,0 +1,45 @@
+.PhotoCaro {
+    overflow: hidden;
+}
+
+.caro__inner {
+    white-space: nowrap;
+    transition: transform 1.2s;
+    height: 100%;
+    width: 100%;
+}
+
+.CaroItem {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 1100px;
+    /* background-color: #000000; */
+    color: #000000;
+}
+
+@media only screen and (max-width: 1500px) {
+    .CaroItem {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .CaroItem {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .CaroItem {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .CaroItem {
+        height: 200px;
+    }
+}
+
+

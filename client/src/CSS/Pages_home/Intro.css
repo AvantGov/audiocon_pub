@@ -1,0 +1,239 @@
+.Intro {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000000;
+
+}
+
+.Intro__header {
+    /* border: 2px solid purple; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: contain;
+    padding: 3.75% 0 3.75% 0;
+    background-color: #000000;
+    background-image: url("../../assets/textures/ring_black_hztl.svg");
+    background-size: contain;
+    background-position: top;
+
+}
+
+.header__copy {
+    font-family: 'Staatliches', cursive;
+    color: #FFFFFF;
+    font-size: 9rem;
+    font-weight: 1000;
+    line-height: 6rem;
+    text-align: center;
+    letter-spacing: 1rem;
+}
+
+.Intro__imgContainer {
+    height: 1150px;
+    width: 100%;
+    background-image: url('../../assets/img/htzl__theaterroom.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Intro__contentContainer {
+    height: 100%;
+    width: 100%;
+    /* ? some fun styling to remember in the future */
+    /* border-left: 2px solid; */
+    /* border-image: linear-gradient(to bottom, #EEAECA,#000000) 1; */
+
+}
+
+
+/* * This was being used to set the header within the content container, 
+/* * but is currently removed for different styling choices; may need to 
+/* * revist this when doing mobile responsive styling. */
+/* .contentContainer__header {
+    font-family: 'Staatliches', cursive;
+    font-size: 8rem;
+    font-weight: 550;
+    line-height: 6rem;
+    text-align: center;
+    padding-bottom: .5%;
+} */
+
+.contentContainer__subheader {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+    font-size: 5.5rem;
+    font-weight: 1000;
+    line-height: 9rem;
+    font-style: italic;
+    text-align: left;
+    padding: 4.5% 5% 4.5% 5%;
+    /* border-radius: 25px; */
+    background: url("../../assets/textures/wave_1_horz.svg");
+    background-size: cover;
+    background-position: left bottom;
+    transition: 7s ease-in-out;
+    box-shadow: inset 0px -3px 5px 8px#000000;
+    width: 100%;
+
+}
+
+.contentContainer__subheader:hover {
+    background-position: right center;
+}
+
+#companyName {
+    padding: .45% 1% .5% 1%;
+    border-radius: 4px;
+    background-color: #ffff78;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    transition: .3s ease-in-out;
+}
+
+#companyName:hover {
+    background-color: #1D6187;
+    color: #FFFFFF;
+}
+
+.contentContainer__bodyContainer {
+    /* border: 2px solid grey; */
+    height: 100%;
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    padding-left: 5%;
+    margin-bottom: 3%;
+}
+
+.bodyContainer__copy {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 2.75rem;
+    line-height: 3.75rem;
+    font-optical-sizing: auto;
+    letter-spacing: .1rem;
+    text-align: left;
+    padding-bottom: 1.25%;
+    padding-left: 1%;
+    display: inline-block;
+    margin-bottom: 2%;
+
+}
+
+@media only screen and (max-width: 1600px) {
+    .header__copy {
+        font-size: 8rem;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .header__copy {
+        font-size: 7rem;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .header__copy {
+        font-size: 6rem;
+    }
+    .contentContainer__subheader {
+        padding-left: 4%;
+        padding-right: 4%;
+        letter-spacing: 1px;
+        padding-bottom: 3%;
+    }
+    .Intro__imgContainer {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .Intro__header {
+        padding: 2% 0 2% 0;
+    }
+    .header__copy {
+        font-size: 4.25rem;
+        line-height: 5rem;
+    }
+    .contentContainer__subheader {
+        padding: 4.5% 3.25% 4.5% 4%;
+        font-size: 5rem;
+        line-height: 7rem;
+        letter-spacing: .25px;
+    }
+    .Intro__imgContainer {
+        height: 500px;
+    }
+    .bodyContainer__copy {
+        font-size: 3.25rem;
+        line-height: 3.75rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contentContainer__subheader {
+        font-size: 3rem;
+        line-height: 4.25rem;
+    }
+    #company_name {
+        font-size: 3rem;
+    }
+    .bodyContainer__copy {
+        font-size: 2.5rem;
+        line-height: 3.25rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contentContainer__bodyContainer {
+        border-top: 1px solid #000000;
+    }
+    .contentContainer__subheader {
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 3.5rem;
+        padding: 8% 6% 8% 6%;
+        background: url("../../assets/textures/wave_1.svg");
+        background-position: left top;
+        box-shadow: inset 0px 0px 5px 8px#000000
+
+    } 
+    .contentContainer__subheader:hover {
+        background-position: bottom;
+    }    
+    .header__copy {
+        font-size: 2.5em;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .bodyContainer__copy {
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+        margin-bottom: 12%;
+        margin-top: 2%;
+    }
+    .Intro__imgContainer {
+        background-size: contain;
+        background-color: #000000;
+        /* box-shadow: 1px 3px 10px 0px #000000;  */
+        height: 200px;   
+        width: 100%;
+    }
+    .Intro__header {
+        box-shadow: inset 0 0 10px 5px #000000;
+    }
+}

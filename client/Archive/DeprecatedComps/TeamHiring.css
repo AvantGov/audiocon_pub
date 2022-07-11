@@ -1,0 +1,77 @@
+.TeamHiring {
+    border: 2px solid #FFFFFF;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 0 0;
+    margin: 1% 0 1% 0;
+    background-color: #EAAB73;
+    border-radius: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.container__copyContainer {
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3% 0 1% 0;
+}
+
+#hiring_title {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.copyContainer__subheader {
+    font-size: 2.5rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.container__button {
+    /* border: 2px solid green; */
+    transition: .5s ease-in-out;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 40px;
+    margin: 0 0 3% 0
+}
+
+.button__lable {
+    transition: .7s ease-in-out;
+    font-size: 3rem;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    margin: 6% 9% 6% 9%;
+    color: #FFFFFF;
+}
+
+
+.container__button:hover p {
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.container__button:hover {
+    background-color: #008000;
+}
+
+
+
+

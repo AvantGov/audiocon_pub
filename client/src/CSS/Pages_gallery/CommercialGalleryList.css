@@ -1,0 +1,85 @@
+.CommercialGalleryList {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(238,248,248);
+    background: -moz-linear-gradient(45deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+    background: -webkit-linear-gradient(45deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+    background: linear-gradient(45deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eef8f8",endColorstr="#1d6187",GradientType=1);
+    background-color: #EEAECA;
+}
+
+.CommercialGalleryList__link {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.CommercialGalleryList__galleryContainer {
+    /* border: 2px solid green; */
+    border-bottom: 3px solid #1D6187;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* shared font styles */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 5rem;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    /* end shared styles */
+    padding: 10% 5% 10% 3%;
+    transition: .5s ease-in-out;
+}
+
+.CommercialGalleryList__galleryContainer:hover {
+    box-shadow: inset 0px 0px 20px 0px #EEAECA;
+
+}
+
+.CommercialGalleryList__galleryContainer > h1 {
+    background-color: #1D6187;
+    padding: 1% 1% 1% 1%;
+    transition: .2s ease-in-out;
+    font-style: italic;
+}
+
+.CommercialGalleryList__galleryContainer > p {
+    font-size: 7rem;
+    vertical-align: bottom;
+    background-color: #1D6187;
+    padding: .75% 1% .75% 1%;
+    border-radius: 55px;
+    transform: rotate(45deg);
+    transition: .2s ease-in-out;
+}
+
+.CommercialGalleryList__galleryContainer:hover > p {
+    background-color: #EEAECA;
+}
+
+.CommercialGalleryList__galleryContainer:hover > h1 {
+    background-color: #EEAECA;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .CommercialGalleryList__galleryContainer > p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .CommercialGalleryList__galleryContainer > h1 {
+        font-size: 2.75rem;
+        padding: 5% 5% 5% 5%;
+        line-height: 3.25rem;
+        
+    }
+}

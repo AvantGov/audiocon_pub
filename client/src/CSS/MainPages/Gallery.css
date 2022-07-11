@@ -1,0 +1,111 @@
+.Gallery {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../../assets/textures/ovals_black_1.svg");
+    background-size: cover;
+    background-position: center;
+    transition: .2s ease-in-out;
+}
+
+.Gallery__link {
+    /* border: 2px solid green; */
+    border: 10px solid #FFFF78;
+    height: 100%;
+    width: 90%;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    font-size: 6rem;
+    color: #FFFF78;
+    margin: 2% 0 2% 0;
+    border-radius: 15px;
+    transition: .2s ease-in-out;
+}
+
+#gallery_commercial {
+    background-image: url("../../assets/HP_gallery/HPGal_9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#gallery_residential {
+    background-image: url("../../assets/HP_gallery/HPGal_11.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.link__galleryLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: .2s ease-in-out;
+}
+
+.link__galleryLink > h1 {
+    padding: 7.5% 0 7.5% 0;
+    transition: .2s ease-in-out;
+}
+
+.Gallery__link:hover > div > h1 {
+    color: #0B72B6;
+}
+
+.Gallery__link:hover {
+    border: 10px solid #0B72B6;
+}
+
+.Gallery:focus > div > h1 {
+    color: #0B72B6;
+}
+
+.Gallery:focus {
+    border: 10px solid #0B72B6;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .Gallery {
+        flex-direction: column;
+    }
+    .Gallery__link {
+        margin: 0% 0 5% 0;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .Gallery > :nth-child(2) {
+        margin-top: 3%;
+    }
+    .link__galleryLink {
+        background-color: #3C3C60;
+        border-radius: 5px;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .Gallery {
+        flex-direction: column;
+    }
+    .Gallery__link {
+        margin: 0% 0 5% 0;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .Gallery > :nth-child(2) {
+        margin-top: 5%;
+    }
+    .link__galleryLink {
+        background-color: #3C3C60;
+        border-radius: 5px;
+    }
+}

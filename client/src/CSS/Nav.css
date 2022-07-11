@@ -1,0 +1,218 @@
+.Nav {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1D6187;
+    background: url("../assets/textures/texture1.svg");
+    background-size: contain;
+
+}
+
+#Nav_homelink {
+    height: 100%;
+    width: 100%;
+}
+
+.Nav__logoContainer {
+    /* border: 2px solid green; */
+    height: 100px;
+    width: 40%;
+    margin-left: 2%;   
+}
+
+.Nav__logo {
+    width: 100%;
+    height: 100%;
+}
+
+.Nav__links {
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1.5%;
+}
+
+.navlink {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 2.25rem;
+    transition: .4s ease-in-out;
+    padding: 1.5% 2.5% 1.5% 2.5%;
+    background-size: cover;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    height: 100%;
+    width: 20%;
+    border: .25px dashed #FFFFFF;
+} 
+
+.navlink:hover {
+    text-decoration: underline;
+    background-size: cover;
+    font-style: oblique;
+    background: url("../assets/textures/mix_texture_blue&pink.svg");
+    background-position: center;
+}
+
+.Nav__icon {
+    /* border: 2px solid white; */
+    margin: 2% 3% 2% 0;
+    height: 60px;
+    width: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+.navIcon {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 5px;
+    transition: .5s ease-in-out;
+    opacity: 100%;
+}
+
+.Nav__icon > :nth-child(3) {
+    display: none;
+    opacity: 0%;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: #1D6187;
+    vertical-align: center;
+    transition: .5s ease-in-out;
+}
+
+.Nav:hover > .Nav__icon > :nth-child(1) {
+    transform: translateX(33px) translateY(28px) rotate(90deg);
+    width: 50%;
+}
+
+.Nav:hover > .Nav__icon > :nth-child(3) {
+    animation: fadein 1s linear forwards;
+    display: inline;
+}
+
+.Nav:hover > .Nav__icon > :nth-child(2) {
+    display: none;
+} 
+
+@keyframes fadein {
+    0% {
+        opacity: 0%
+    }
+    100% {
+        opacity: 100%
+    }
+}
+
+.Nav:hover > .Nav__icon > :nth-child(4) {
+    transform: translateX(-37px) translateY(-16px) rotate(-90deg);
+    width: 50%;
+}
+
+.Nav__icon:hover > hr {
+    background-color: #EEAECA;
+}
+
+.Nav__icon:hover > span {
+    color: #EEAECA;
+}
+
+@media only screen and (max-width: 1500px) {
+    .navlink {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .navlink{
+        width: 22%;
+    }
+}
+
+@media only screen and (max-width: 1024px ) {
+    .Nav__links {
+        display: none;
+    }
+
+    .Nav__icon {
+        display: flex;
+    }
+    .mobileNav {
+        width: 100vw;
+        height: 100vh;
+        background: rgb(238,248,248);
+        background: -moz-linear-gradient(180deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+        background: -webkit-linear-gradient(180deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+        background: linear-gradient(180deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eef8f8",endColorstr="#1d6187",GradientType=1);  
+        background-color: #1E132A;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .mobileNav__links {
+        height: 50%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .mobileNav__link {
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        color: #FFFFFF;
+        font-size: 2.25rem;
+        transition: .4s ease-in-out;
+        padding: 4.5% 2.5% 1.5% 2.5%;
+        background-size: cover;
+        border-radius: 25px;
+        text-align: center;
+        display: block;
+        height: 15%;
+        width: 100%;
+        border: .25px dashed #FFFFFF;
+    }
+    .button {
+        background-color: #FFFF78;
+        color: #1E132A;
+        height: 50px;
+        width: 200px;
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 30%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .Nav__icon {
+        margin: 3% 5% 3% 0;
+    }
+    .Nav__logo {
+        width: 60%;
+        margin-left: 3%;
+    }
+    .Nav__logoContainer {
+        width: 70%;
+    }
+}
+

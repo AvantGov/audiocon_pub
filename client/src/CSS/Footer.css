@@ -1,0 +1,516 @@
+.Footer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(238,248,248);
+    background: -moz-linear-gradient(180deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+    background: -webkit-linear-gradient(180deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+    background: linear-gradient(180deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eef8f8",endColorstr="#1d6187",GradientType=1);  
+    background-color: #1E132A;
+    color: #FFFFFF;
+}
+
+.Footer__companyContainer {
+    /* border: 2px solid green; */
+    width: 26%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2%;
+}
+
+/* .companyContainer__header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+    letter-spacing: .75px;
+    padding: 0 0 3% 0;
+    text-decoration: underline;
+} */
+
+.companyContainer__addressContainer {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+    padding: 1% 0 4% 17%;
+    margin: 7% 0 3% 0;
+    width: 100%;
+    height: 100%;
+}
+
+#stateAddress {
+    font-size: 1.75rem;
+    padding-left: 6.2%;
+}
+
+.map__icon {
+    height: 40px;
+    width: 40px;
+    padding: 2% 4% 2% 0%;
+    background: url("../assets/icons/map.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 2%;
+}
+
+.companyContainer__phone {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+}
+
+.companyContainer__affiliateIcon {
+    /* border: 2px solid red; */
+    background-position: left;
+    
+}
+
+
+#madisonbuilders {
+    /* border: 2px solid red; */
+    background-image: url("../assets/icons/maba-wordmark.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: auto;
+    margin: 0 0% 0% 1%;
+    transition: 1s ease-in-out;
+}
+
+.infoContainer__socialContainer {
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0 3% 1%;
+}
+
+.socialContainer__social {
+    /* border: 2px solid red; */
+    height: 75px;
+    width: 75px;
+    margin: 7% 0 7% 0;
+    transition: .3s ease-in-out;
+    border-radius: 35px;
+}
+
+
+#facebook {
+    background-image: url("../assets/icons/facebook_black.svg");
+    background-position:center;
+    background-size: cover;
+}
+
+#instagram {
+    background-image: url("../assets/icons/linkedin.svg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    border: 2px solid #FFFFFF;
+}
+
+#BBB {
+    background-image: url("../assets/icons/BBB_logo.svg");
+    background-position:center;
+    background-size: cover;
+}
+
+
+/* * Hover state for the social media icons: */
+.socialContainer__social:hover {
+    background: #EEAECA;
+}
+
+.Footer__infoContainer {
+    /* border: 2px solid blue; */
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infoContainer__header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    line-height: 3.75rem;
+    padding: 2.25% 15% 1.5% 15%;
+    margin-bottom: 8%;
+    margin-top: 7%;
+    background: #FFFF78;
+    border-radius: 18px;
+    color: #1E132A;
+    height: 100%;
+    width: 80%;
+    text-align: center;
+}
+
+.infoContainer__contactContainer {
+    /* border: 2px solid white; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.contactContainer__phone {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.phone__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+
+.email__address {
+    width: 100%;
+    margin-left: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.phone__hours {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin: 2% 0 0 1%;
+
+}
+
+.phone__icon {
+    padding: 2% 4% 2% 0%;
+    height: 40px;
+    width: 40px;
+    margin: 0 1% 0 0;
+    background: url("../assets/icons/phone.svg");
+    background-repeat: no-repeat;
+}
+
+
+.contactContainer__email {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+}
+
+.email__icon {
+    padding: 3% 2% 2% 0%;
+    height: 40px;
+    width: 40px;
+    background: url("../assets/icons/mail.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#streetAddress {
+    width: 100%;
+    height: 100%;
+}
+
+.Footer__siteMap {
+    /* border: 2px solid orangered; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 0 5%;
+    margin: 3% 0 3% 0;
+}
+
+.siteMap__header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    line-height: 3.75rem;
+    padding: 2.25% 10% 1.5% 10%;
+    background-color: #FFFF78;
+    color: #1E132A;
+    border-radius: 18px;
+    margin: 0 0 4% 0;
+    height: 100%;
+    width: auto;
+}
+
+.siteMap__link {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin: 2% 0 2% 3.5%;
+    border: .5px solid #1E132A;
+    padding: 2.75% 5% 2.75% 5%;
+    background-color:  #FFFF78;
+    color: #1E132A;
+    transition: .3s ease-in-out;
+    height: 100%;
+    width: auto;
+}
+
+.siteMap__link > :first-child {
+    color: #1E132A;
+    text-decoration: none;
+}
+
+.siteMap__sublink > :first-child {
+    color: #1E132A;
+    text-decoration: none;
+}
+
+.email__address > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.phone__number > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.addressContainer__address > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.siteMap__sublink {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin: 1% 0 1% 10%;
+    padding: 1.5% 3% 1% 3%;
+    background-color: #FFFF78;
+    color: #1E132A;
+    transition: .3s ease-in-out;
+}
+
+/* #SM_gallery {
+    padding-top: 2.5%;
+}
+
+#SM_brands {
+    padding-top: 2.5%;
+} */
+
+.siteMap__link:hover {
+    text-decoration: underline;
+    background-color: #EEAECA;
+}
+
+.siteMap__link:hover > a {
+    color: #FFFFFF;
+}
+
+.siteMap__sublink:hover {
+    text-decoration: underline;
+    background-color: #EEAECA;
+    color: #FFFFFF;
+}
+
+.siteMap__sublink:hover > a {
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1800px) {
+    .contactContainer__email {
+        padding-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .Footer {
+        flex-direction: column;
+    }
+    #madisonbuilders {
+        width: 500px;
+    }
+    .Footer__companyContainer {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    .infoContainer__socialContainer {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 60%;
+    }
+    .Footer__infoContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+    .infoContainer__header {
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 50%;
+        margin-top: 0;
+        margin-bottom: 1%;
+        border-bottom: 5px solid #FFFF78;
+        background: none;
+        color: #FFFF78;
+    }
+    .contactContainer__phone {
+        width: 50%;
+        margin-bottom: 1%;
+    }
+    .contactContainer__email {
+        width: auto;
+        padding-left: 0;
+    }
+    .companyContainer__addressContainer {
+        margin: 1% 0 2% 0;
+        padding: 1% 0 4% 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #stateAddress {
+        padding-left: 0;
+    }
+    .Footer__siteMap {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 0 2% 0;
+        padding: 0 1% 0 3%;
+    }
+    .siteMap__sublink {
+        margin: 1% 0 1% 3%;
+    }
+    #SM_title {
+        margin: 0 0 0 0;
+        background: none;
+        color: #FFFF78;
+        border: 5px solid #FFFF78;
+    }
+    #SM_brands {
+        margin: 0 1% 0 3.62%;
+        padding-left: 5.5%;
+        padding-right: 5.5%;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .siteMap__sublink {
+        width: auto;
+    }
+    .siteMap__link {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .Footer__siteMap {
+        padding: 0 1% 0 10%;
+    }
+    #streetAddress {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+    #stateAddress {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .contactContainer__phone {
+        width: 100%;
+    }
+    .phone__number {
+        font-size: 2.5rem;
+        width: 100%;
+    }
+    .phone__hours {
+        margin: 0 0 0 0;
+    }
+    .contactContainer__email {
+        margin: 2% 0 2% 0;
+        padding-left: 0;
+        font-size: 1.7rem;
+    }
+    .Footer__siteMap {
+        margin: 5% 0 5% 0;
+        padding: 0 1% 0 3%;
+    }
+    .Footer__infoContainer {
+        margin: 5% 0 5% 0;
+    }
+    .Footer__companyContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    #madisonbuilders {
+        height: 100px;
+        width: 300px;
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+    .infoContainer__socialContainer {
+        width: 100%;
+        margin: 8% 0 4% 0;
+    }
+    .infoContainer__header {
+        margin-bottom: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: auto;
+        border: none;
+        border-bottom: 5px solid #FFFF78;
+    }
+    #SM_title {
+        margin-bottom: 4%;
+        margin-left: 2%;
+
+    }
+    #SM_brands {
+        margin-top: 2%;
+        margin-left: 4.75%;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    .Footer__siteMap {
+        padding-right: 5%;
+    }
+}

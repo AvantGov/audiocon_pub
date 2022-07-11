@@ -1,0 +1,315 @@
+.Brands {
+    height: 100%;
+    width: 100%;
+}
+
+.Brands__intro {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro__titleContainer {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 45%;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5% 0% 5% 0%;    
+}
+
+.intro__title {
+    color: #0B72B6;
+    font-size: 4.2rem;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    width: 80%;
+}
+
+.intro__copyContainer {
+    /* border: 2px solid red; */
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intro__copyContainer > h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 1%;
+    width: 70%;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #0B72B6;
+}
+
+.intro__copyContainer > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.intro__copyContainer > hr {
+    width: 40%;
+}
+
+
+.Brands__brandList {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(238,248,248);
+    background: -moz-linear-gradient(45deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+    background: -webkit-linear-gradient(45deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+    background: linear-gradient(45deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eef8f8",endColorstr="#1d6187",GradientType=1);
+    background-color: #EEAECA;
+}
+
+/* adding some spacing to the top and bottom of the container */
+.Brands__brandList > :first-child {
+    margin-top: 3%;
+}
+
+.Brands__brandList > :nth-child(25) {
+    margin-bottom: 3%;
+}
+
+.brandList__sortContainer {
+    height: 100%;
+    width: 100%;
+    margin: 2% 0 2% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sortContainer__nameContainer {
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 7rem;
+    font-weight: 1000;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.sortContainer__header {
+    margin: .5% 0 .5% 0;
+    width: 96%;
+}
+
+.sortContainer__rule {
+    margin: .1% 0 .45% 0;
+    width: 96%;
+    background-color: #FFFFFF;
+    opacity: 100%;
+    border: none;    
+    border-radius: 35px;
+}
+
+.sortContainer__brands {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.brand__link {
+    height: 100%;
+    width: 20%;
+    transition: .3s ease-in-out;
+    border: 1px solid #000000;
+
+    /* font styling */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-decoration: none;
+    background-color: #FFFF78;
+    text-align: center;
+    color: #000000;
+
+
+
+    /* placement stlying */
+    padding: 1% 3% 1% 3%;
+    margin: 1% 3% 1% 3%;
+}
+
+.brand__link:hover {
+    background-color: #1E132A;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+
+.brandList__brandContainer {
+    /* border: 2px solid purple; */
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    height: 70%;
+    width: 100%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyContainer__brandName {
+    background-color: #214EA5;
+    line-height: 2.5rem;
+    height: 70%;
+    width: 70%;
+    text-align: center;
+    padding-top: 2.5%;
+    border: 1px solid #FFFFFF;
+}
+
+/* "filtering" out the letter containers that do not have anything in them */
+#Z__container {
+    display: none;
+}
+
+#W__container {
+    display: none;
+}
+
+#G__container {
+    display: none;
+}
+
+/* hot fix for jus the URC container, to make it a bit longer than the rest */
+#BND88 {
+    width: 30%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .Brands__intro {
+        flex-direction: column;
+    }
+
+    .Brands__intro > :first-child {
+        width: 100%;
+    }
+
+    .Brands__intro > :first-child > :first-child {
+        text-align: center;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .Brands__intro > :nth-child(2) {
+        width: 100%;
+    }
+
+    #Brands_copyContainer > :first-child {
+        margin-top: 4%;
+        margin-bottom: 2%;
+        width: 80%;
+    }
+
+    #Brands_copyContainer > :last-child {
+        margin-bottom: 4%;
+        margin-top: 2%;
+    }
+    .sortContainer__nameContainer {
+        text-align: center;
+    }
+
+    .sortContainer__header {
+        padding: 0 0 0 0;
+    }
+
+    .sortContainer__rule {
+        margin-bottom: 2%;
+    }
+
+    .brand__link {
+        width: 30%;
+    }
+
+    #BND88 {
+        width: 70%;
+    }
+
+    .brandList__sortContainer {
+        margin: 5% 0 5% 0;
+    }
+    /* hotfix for letter Q baseline height issue */
+    #Q_header {
+        margin-bottom: 2.5%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .copyContainer__brandName {
+        padding-top: 8.25%;
+    }
+    
+    .sortContainer__header {
+        margin: 0 0 0 0;
+    }
+
+    .brand__link {
+        width: 70%;
+        font-size: 2rem;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    /* adding some spacing to the top and bottom of the container */
+    .Brands__brandList > :first-child {
+        margin-top: 5%;
+    }
+
+    .Brands__brandList > :nth-child(25) {
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .intro__copyContainer > p {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        text-align: center;
+        
+    }
+    .intro__copyContainer > h3 {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    .copyContainer__brandName {
+        font-size: 1.75rem;
+        padding-top: 11.5%;
+        width: 80%;
+    }
+}
+
+

@@ -1,0 +1,23 @@
+.CaptionCaro {
+    overflow-x: hidden;
+    overflow-y: visible;
+    width: 72%;
+}
+
+.captionCaro__inner {
+    white-space: nowrap;
+    transition: transform 1.5s;
+}
+
+.CaptionItem {
+    /* border: 2px solid red; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+
+
+
+

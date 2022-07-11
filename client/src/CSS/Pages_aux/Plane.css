@@ -1,0 +1,106 @@
+.PlaneContainer {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 50%;
+    margin: 5% 0 5% 0;
+    padding-top: 1%;
+    padding-bottom: 11.85%;
+}
+
+  .frame {
+    width: 100%;
+    height: 100%;
+    width: 100%;
+  }
+  
+  svg {
+    max-width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  /**
+   * Paper Plane
+   */
+  /*Paper Plane: Container*/
+  .plane-container {
+    width: 200px;
+    margin: 0px auto;
+    z-index: 3;
+  }
+   /*Paper Plane: Image*/
+  .plane {
+    width: 100%;
+    height: 60px;
+  }
+  
+  /*Paper Plane: Animation*/
+  .plane-container {
+    -webkit-animation: paper-plane-scoping 2s alternate infinite;
+    -moz-animation: paper-plane-scoping 2s alternate infinite;
+    animation: paper-plane-scoping 2s alternate infinite;
+  
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes paper-plane-scoping {
+    0% {
+      -webkit-transform: translateY(0px);
+      -moz-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    100% {
+      -webkit-transform: translateY(140px);
+      -moz-transform: translateY(140px);
+      transform: translateY(140px);
+    }
+  }
+  
+  .plane {
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  
+    -webkit-animation: paper-plane-soaring 4s forwards infinite;
+    -moz-animation: paper-plane-soaring 4s forwards infinite;
+    animation: paper-plane-soaring 4s forwards infinite;
+  }
+ 
+  @keyframes paper-plane-soaring {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    40% {
+      -webkit-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      transform: rotate(15deg);
+    }
+    50% {
+      -webkit-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      transform: rotate(15deg);
+    }
+    60% {
+      -webkit-transform: rotate(-10deg);
+      -moz-transform: rotate(-10deg);
+      transform: rotate(-10deg);
+    }
+    70% {
+      -webkit-transform: rotate(-10deg);
+      -moz-transform: rotate(-10deg);
+      transform: rotate(-10deg);
+    }
+    100% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  }
+  
+ 
+
+  

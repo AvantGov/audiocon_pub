@@ -1,0 +1,277 @@
+.AboutUs {
+    /* border styling */
+    border-bottom: 9px dashed #FFFFFF;
+    transition: .7s ease-in-out;
+    background-color: #000000;
+}
+
+.AboutUs__headerContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: .7s ease-in-out;
+    background-color: #000000;
+}
+
+.AboutUs:hover {
+    border-bottom: 9px dashed #0B72B6;
+}
+
+.AboutUs__headerContainer:hover {
+    background-color: #0B72B6;
+}
+
+.headerContainer__icon {
+    color: #FFFFFF;
+    font-size: 5rem;
+    fill: #FFFFFF;
+    padding: .75% .5% .75% 1%;
+    transition: .3s ease-in-out;
+}
+
+#header__AboutUs {
+    font-size: 6rem;
+    font-weight: 1000;
+    padding: 4% 0% 4% 1%;
+    width: 30%;
+    transition: .3s ease-in-out;
+    text-decoration: underline;
+
+}
+
+
+/*  * Styling for the overall container of everything */
+
+.AboutUs__copyContainer {
+    /* border: 2px solid fuchsia; */
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1.2s ease-in-out;
+}
+
+.AboutUs__controlContainer {
+    /* border: 2px solid red; */
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+/* * Styling for the controllers */
+
+#control__HPAboutUs_left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0B72B6;
+    color: #FFFFFF;
+    border: 7.5px solid #000000;
+    transition: .3s ease-in-out;
+    background-position: center;
+    background-size: cover;
+}
+#control__HPAboutUs_left:hover {
+    background-color: #EEAECA;
+}
+
+#control__HPAboutUs_right:hover {
+    background-color: #EEAECA;
+}
+
+#control__HPAboutUs_right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFFFFF;  
+    background-color: #0B72B6;
+    border: 7.5px solid #000000;
+    transition: .3s ease-in-out;
+    background-position: center;
+    background-size: cover;
+}
+
+#control__HPAboutUs_left:hover span {
+    transition: .7s ease-in-out;
+    letter-spacing: 3.5px;
+    color: #FFFFFF;
+}
+
+#control__HPAboutUs_right:hover span {
+    transition: .7s ease-in-out;
+    letter-spacing: 3.5px;
+    color: #FFFFFF;
+}
+
+.controller__icon {
+    font-size: 3.5rem;
+    color: #1D6187;
+    margin: 0 auto;
+}
+
+.controller__ruleLine {
+    width: 50%;
+    background-color: #FFFFFF;
+    opacity: 100%;
+    margin-bottom: 3%;
+    padding: .25% 0 0 0 ;
+}
+
+
+
+.controller__label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.75rem;
+    font-weight: 1000;
+    padding: 3% 0 3% 0;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+
+/*  * Styling for the actual container */
+
+
+.CaptionCaro {
+    margin: 3% 0% 3% 0%;
+    /* border: 2px solid red; */
+    width: 96%;
+    height: 100%;
+}
+
+.CaptionItem {
+    /* border: 2px solid teal; */
+    height: 100%;
+    width: 100%;
+    color: #000000;
+    
+}
+
+.CaptionItem__container {
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    white-space: normal;
+}
+
+/* * Styling for the copy in the container * */
+
+.CaptionItem__header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 7.5rem;
+    padding-bottom: .75%;
+    color: #FFFFFF;
+}
+
+.CaptionItem__subheader {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+    line-height: 3rem;
+    padding-bottom: 2.25%;
+    color: #1D6187;
+}
+
+.CaptionItem__body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    padding-bottom: 1%;
+    color: #FFFFFF;
+}
+
+.titleColor {
+    color: #0B72B6;
+} 
+
+@media only screen and (max-width: 1024px) {
+    .CaptionItem__header {
+        font-size: 3.75rem;
+        line-height: 4.25rem;
+        padding-top: 3%;
+    }
+    .CaptionItem__subheader {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
+    .CaptionItem__body {
+        font-size: 2rem;
+        margin-bottom: 7%;
+    }
+    #control__HPAboutUs_left span {
+        font-size: 2rem;
+    }
+    #control__HPAboutUs_right span {
+        font-size: 2rem;
+    }
+
+    #control__HPAboutUs_right:hover span {
+        letter-spacing: 1px;
+    }
+    #control__HPAboutUs_left:hover span {
+        letter-spacing: 1px;
+    }
+    #header__AboutUs {
+        width: 100%;
+        font-size: 4rem;
+        padding-bottom: 5%;
+        padding-top: 14%;
+        margin-bottom: 9%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .CaptionItem__header {
+        font-size: 3.75rem;
+        line-height: 4.25rem;
+        padding-top: 3%;
+    }
+    .CaptionItem__subheader {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
+    .CaptionItem__body {
+        font-size: 2rem;
+        margin-bottom: 7%;
+    }
+    #control__HPAboutUs_left span {
+        font-size: 2rem;
+    }
+    #control__HPAboutUs_right span {
+        font-size: 2rem;
+    }
+
+    #control__HPAboutUs_right:hover span {
+        letter-spacing: 1px;
+    }
+    #control__HPAboutUs_left:hover span {
+        letter-spacing: 1px;
+    }
+    #header__AboutUs {
+        width: 100%;
+        font-size: 4rem;
+        padding-bottom: 5%;
+        padding-top: 12%;
+        margin-bottom: 9%;
+    }
+}

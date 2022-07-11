@@ -1,0 +1,328 @@
+/* ! if you are looking here to adjust the size of the picture frame displayed on this part of the home page, you are WRONG. This is done with PhotoCaro.css. */
+
+
+
+/* * This is where we are injecting the IMGs to the different divs of the photo carousel, make style changes here * */
+#CaroItem_1 {
+  background-image: url('../../assets/HP_gallery/HPGal_1.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#CaroItem_2 {
+  background-image: url('../../assets/HP_gallery/HPGal_2.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#CaroItem_3 {
+  background-image: url('../../assets/HP_gallery/HPGal_3.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#CaroItem_4 {
+  background-image: url('../../assets/HP_gallery/HPGal_4.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#CaroItem_5 {
+  background-image: url('../../assets/HP_gallery/HPGal_5.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#CaroItem_6 {
+  background-image: url('../../assets/HP_gallery/HPGal_6.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#CaroItem_7 {
+  background-image: url('../../assets/HP_gallery/HPGal_7.png');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#CaroItem_8 {
+  background-image: url('../../assets/HP_gallery/HPGal_8.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#CaroItem_9 {
+  background-image: url('../../assets/HP_gallery/HPGal_9.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#CaroItem_10 {
+  background-image: url('../../assets/HP_gallery/HPGal_10.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#CaroItem_11 {
+  background-image: url('../../assets/HP_gallery/HPGal_11.JPG');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#CaroItem_12 {
+  background-image: url('../../assets/HP_gallery/HPGal_12.JPG');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* styling for the different caro items */
+.CaroFrame {
+  height: 100%;
+  width: 100%;
+}
+
+/* * This is the actual styling for the piece of the homepage */
+.HPGallery {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background: url("../../assets/textures/coral_texture.svg");
+    background-size: cover;
+    background-position: bottom;
+    padding: 2% 0 2% 0;
+    transition: 7s ease-in-out;
+    box-shadow: inset 0 0 7px 5px #000000;
+    background-color: #000000;
+}
+
+ /* ! dont forget me if you go for the motion feeling */
+.HPGallery:hover {
+  background-position: center;
+} 
+
+
+.HPGallery__copyContainer {
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 1.5%;
+  padding-right: 2.5%;
+  /* background-color: #EEAECA; */
+  padding: 1.5% 2.5% 1.5% 2.5%;
+}
+
+.copyContainer__header {
+  color: #FFFFFF;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  font-size: 5rem;
+  padding: 2% 3% 1% 3%;
+  background-color: #0B72B6;
+}
+
+.copyContainer__subheader {
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  padding: 1% 3% 1% 3%;
+  background-color: #0B72B6;
+}
+
+/* .copyContainer__prompt {
+  color: #FFFFFF;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 1000;
+  width: 30%;
+  height: 100%;
+} */
+
+/* ! this is the actual container on the comp for the HP gallery viewer */
+.Gallery__caroContainer {
+  /* border-top: 8px solid #1D6187;
+  border-bottom: 8px solid #1D6187; */
+  height: 100%;
+  width: 96%;
+  margin-top: 3%;
+}
+
+.copyContainer__controller {
+  /* border: 2px solid red; */
+  height: 100%;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.controls__button {
+  height: 1102px;
+  width: 5%;
+  background-color: #0B72B6;
+  color: #FFFFFF;
+  font-size: 5rem;
+  font-weight: 600;
+  text-align: center; 
+  padding-bottom: 1.5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s ease-in-out;
+}
+
+
+.controls__button:hover {
+  background-color: #EEAECA;
+  color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 1500px) {
+  .Gallery__caroContainer {
+    width: 88%;
+  }
+  .controls__button {
+    height: 702px;
+    width: 6%;
+  }
+  .controls__button > span {
+    font-size: 5rem;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .HPGallery {
+    padding: 2% 0 0 0;
+  }
+  .Gallery__caroContainer {
+    width: 88%;
+    margin-top: 7%;
+    margin-bottom: 12%;
+  }
+  .controls__button {
+    height: 503px;
+    width: 13%;
+    margin-bottom: 12%;
+    margin-top: 7%;
+  }
+  .controls__button > span {
+    font-size: 3rem;
+  }
+  .copyContainer__subheader {
+    font-size: 1rem;
+  }
+  #HPGal_subheader {
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+    text-align: right;
+    letter-spacing: .1px;
+    margin-top: 3%;
+  }
+  #HPGal_header {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+  .HPGallery__copyContainer {
+    width: 96%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .controls__button {
+    height: 353px;
+    width: 8%;
+    margin-bottom: 12%;
+    margin-top: 7%;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Gallery__caroContainer {
+    width: 88%;
+    margin-top: 7%;
+    margin-bottom: 12%;
+  }
+  .controls__button {
+    height: 202px;
+    width: 13%;
+    margin-bottom: 12%;
+    margin-top: 7%;
+  }
+  .controls__button > span {
+    font-size: 3rem;
+  }
+  .copyContainer__subheader {
+    font-size: 1rem;
+  }
+  #HPGal_subheader {
+    /* display: none; */
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: left;
+    letter-spacing: .1px;
+    margin-top: 5%;
+  }
+  #HPGal_header {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    text-align: right;
+  }
+  .HPGallery__copyContainer {
+    width: 96%;
+    flex-direction: column-reverse;
+  }
+}
+
