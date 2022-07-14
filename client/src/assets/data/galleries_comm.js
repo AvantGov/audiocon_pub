@@ -24,11 +24,11 @@ export const galleries_comm = [
         title: "Apartments & Multiple Dwelling Units",
         photos: "995",
     },
-    {
-        id: "994",
-        title: "Retail Stores",
-        photos: "994",
-    },
+    // {
+    //     id: "994",
+    //     title: "Retail Stores",
+    //     photos: "994",
+    // },
     {
         id: "993",
         title: "Commercial-Grade Audio & Acoustic Reinforcement",

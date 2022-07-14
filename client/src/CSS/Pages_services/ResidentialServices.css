@@ -90,28 +90,28 @@
 
 /* image assignments for the different parts of this page. */
 #hometheater_image {
-    background-image: url("../../assets/img/services/hometheater.jpeg");
+    background-image: url("../../assets/img/services/hometheater.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 #wholehouse_image {
-    background-image: url("../../assets/img/services/wholehome.jpeg");
+    background-image: url("../../assets/img/services/wholehome.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 #automation_image {
-    background-image: url("../../assets/img/services/automation.jpeg");
+    background-image: url("../../assets/img/services/automation.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: right 35% top 0%;
 }
 
 #smartlighting_image {
-    background-image: url("../../assets/img/services/smartlighting.jpeg");
+    background-image: url("../../assets/img/services/smartlighting.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left 26% top 0%;
