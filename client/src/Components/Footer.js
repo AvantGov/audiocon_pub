@@ -32,7 +32,7 @@ const Footer = () => {
                 <div className="infoContainer__contactContainer">
                     <div className="contactContainer__phone">
                         <p className="phone__number"><span className="phone__icon"> </span> <a href="tel:6088350556">608 - 835 - 0556</a></p>
-                        <p className="phone__hours">We are in office 8a-4p Monday through Friday</p>
+                        <p className="phone__hours">Typical office hours 8a-4p, Mon-Fri.<br/>Weekends by appointment.</p>
                     </div>
                     <div className="contactContainer__email">
                         <span className="email__icon"> </span>

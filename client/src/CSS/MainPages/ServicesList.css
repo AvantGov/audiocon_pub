@@ -27,14 +27,14 @@
 }
 
 #service_commercial {
-    background-image: url("../../assets/HP_gallery/HPGal_1.jpg");
+    background-image: url("../../assets/HP_gallery/HPGal_2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top 20% left 0%;
 }
 
 #service_residential {
-    background-image: url("../../assets/HP_gallery/HPGal_10.jpg");
+    background-image: url("../../assets/HP_gallery/HPGal_12.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

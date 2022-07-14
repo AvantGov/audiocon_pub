@@ -53,7 +53,7 @@ export const photos_ids = {
         "e3cede4a-9f6e-4293-36f8-4cff02a70900"
     ],
 
-    // updated 06/17 (Retail)
+    // updated 06/17 (Retail) currently disabled and will not be updated until re-instilled
     994: [
         "c005d52f-d773-443f-d753-b8f159a4ec00",
         "7d897306-dfdd-4d24-54bb-530825c5f700",
@@ -84,15 +84,17 @@ export const photos_ids = {
 
     // updated 06/17 (Theater)
     991: [
+        "f5d048e0-6d4a-47eb-1534-433d3fa22f00",
         "a283dc80-4439-4ba7-cc8c-2e8148b8f200",
         "0988baaf-67a9-4d97-6349-7da37e36fb00",
+        "cfc3c6ee-dbca-4053-a4ca-a47eba550200",
         "1df8209d-432b-49d9-ede3-c2405ae41e00",
         "bc8203c5-093d-4b79-8eed-bfcefec70900",
+        "79640dff-7104-43a9-b495-fa7eab09c800",
         "36476192-d881-4ace-338f-d4f993b7f300",
         "6b061b24-91cc-4027-98e8-5dde07616c00",
         "f3f34638-b771-400f-1652-034b034e2a00",
-        "eb384b23-2b18-4374-9ea6-4cdf91b60e00",
-        "8b9b62b6-2ffe-4642-7fe1-03725bd89300",
+        "d77e0c6c-ed37-4d3a-6792-9b60b6403c00",
         "1b207195-9e51-40ec-3001-b95ab67e0100",
         "ba0c5b34-a3f2-49a3-4855-59070aa3df00"
     ],
@@ -102,9 +104,11 @@ export const photos_ids = {
         "88d0c867-581d-45b3-31f4-06dbc8d67700",
         "12595075-c6f8-4cb4-ffad-f76964d81600",
         "f20d33f8-0d47-4e24-ae59-eb9c4c9c7200",
+        "fcee5f9a-d99d-4be1-3577-8847d500c200",
         "e11a63c1-3f78-4463-46b4-076909404c00",
         "22220ed9-fc76-43df-97df-7f329cb72d00",
         "7e185ebb-d0ee-4fb8-8d0b-ae4078ac3300",
+        "047ebff0-8f00-4814-f715-13e989ac7d00",
         "23dd9c18-21f1-4d92-4090-85bdbd85bd00",
         "eadebcd8-3a75-44ba-60db-8898f396c400",
         "b2ad9599-ce03-4f6d-6344-2f5b5b42e400"
@@ -115,7 +119,8 @@ export const photos_ids = {
         "2c0202be-ee68-478d-2843-49e75194bd00",
         "cc4d2b88-0a4f-4a35-3dfc-41442431b300",
         "aab61c13-efd9-457a-5604-6dc278eba200",
-        "f76a737d-139a-4499-b171-7b58642b2c00"
+        "f76a737d-139a-4499-b171-7b58642b2c00",
+        "1ef7c887-4a55-429f-31bb-deb380652900"
     ],
 
     // updated 06/17 (Lighting)
@@ -129,13 +134,16 @@ export const photos_ids = {
     987: [
         "ab926880-89f4-48e1-b552-b3d62d054100",
         "81b8f903-91d7-474f-f553-0c4adb052900",
-        "328f4863-a3df-41fd-b95f-c1e8b3e0ee00"
+        "328f4863-a3df-41fd-b95f-c1e8b3e0ee00",
+        "7524f936-bcaf-4825-ba10-ccd4835c8500",
+        ""
 
 
     ],
     
-    // no photos to add (Room Acoustics)
+    // no photos to add (Room Acoustics) currently disabled, do not update.
     986: [
+        "a0a1fbd1-17e6-4551-0127-8d87ee7fc400",
         "af1a8b49-fdba-41c3-4e1e-9a90cad04a00",
         "d342aae0-cbae-4311-6402-200045806e00",
         "b9daba61-bc95-458e-68ae-69526c8f7b00",
