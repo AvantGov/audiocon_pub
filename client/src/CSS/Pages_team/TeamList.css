@@ -31,7 +31,7 @@ when handed in the with the style={} prop */
 
 #KriHod {
     background-image: url("../../assets/img/employees/Khodgkins.jpg");
-    background-position: center;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -39,6 +39,13 @@ when handed in the with the style={} prop */
 #ScoDei {
     background-image: url("../../assets/img/employees/Sdeitze.jpg");
     background-position: top 25% left 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#BilMar {
+    background-image: url("../../assets/img/employees/BMarr.jpg");
+    background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
 }

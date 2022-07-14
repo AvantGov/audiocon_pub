@@ -81,6 +81,15 @@ export const employee_about = [
         dept: "Sales"
     },
     {
+        key: "BilMar",
+        firstName: "Bill",
+        lastName: "Marr",
+        title: "Sales & Project Mgmt.",
+        img: "../assets/img/employees/BMarr.jpg",
+        year: "2022",
+        dept: "Sales"
+    },
+    {
         key: "CurEle",
         firstName: "Curtis",
         lastName: "Elthorp",
