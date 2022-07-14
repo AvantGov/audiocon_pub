@@ -2,7 +2,7 @@
 
 
 # Services
-
+test
 
 # Depends. Libraries 
 - React Router 
@@ -98,7 +98,7 @@ google project ID: cosmic-answer-350614
 
 [ ] will need to stabilize the application forms with redux because currently they are just wiping whenever the page is re-loaded 
 
-[ ] implement a better case of switching the galleryView state from true back to false in order to show the Nav, Footer whenever jumping around pages.
+[ x] implement a better case of switching the galleryView state from true back to false in order to show the Nav, Footer whenever jumping around pages.
 	- currently there is a sweet little hot fix in there where GalleryList pushes out a change of state (should the user navigate back) and the button at the ResGal_End piece also pushes out this same change, but as the site grows and more links to other pages appear on other pages (workflows start to matrix each other) this is not going to suffice. 
 - will most likely involve some useHistory or useLocation implementation. 
 
