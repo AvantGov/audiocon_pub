@@ -140,7 +140,7 @@ const CommercialServices = () => {
                     <div className='contentContainer__copyContainer'>
                         <h3 className='copyContainer__title'>Filter and mask distractions <strong className="title__strong">in any space.</strong></h3>
                         <p id="masking_bullet1" className='copyContainer__bullet'>&#8226; Office spaces lacking appropriate boundaries for employees to focus have been related to workplace dissatisfaction and lower productivity. Make open office floor plans a success story with speech privacy support from our trusted vendors.</p>
-                        <p id="masking_bullet2" className='copyContainer__bullet'>&#8226; Sound masking, when deployed properly, is a low cost alternative to improving acoustic comfort, and reduce conversational distractions.</p>
+                        <p id="masking_bullet2" className='copyContainer__bullet'>&#8226; Sound masking, when deployed properly, is a low cost alternative to improving acoustic comfort, and reducing conversational distractions.</p>
                         <p id="masking_bullet3" className='copyContainer__bullet'>&#8226; Need to go further? We are able to provide corporate facilities with active 70 watt noise canceling installations that integrate organically into ventilation systems.</p>
                     </div>
                 </div>

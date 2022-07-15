@@ -53,13 +53,15 @@
     justify-content: center;
     background-image: url("../../assets/textures/texture2.svg");
     background-size:cover;
+    height: 100%;
+    width: 100%;
 }
 
-.scrolling-view__link {
+.link__linkContainer {
     text-decoration: none;
     border: 2px dashed #000000;
     border-radius: 30px;
-    width: 40%;
+    width: 70%;
     background-color: #FFFFFF;
     transition: .2s ease-in-out;
 }
@@ -73,12 +75,12 @@
     margin: 2% 0 2% 0;
 }
 
-.scrolling-view__link:hover {
+.link__linkContainer:hover {
     background-color: #000000;
     border: 2px dashed #EEAECA;
 }
 
-.scrolling-view__link:hover > div > h1 {
+.link__linkContainer:hover > h1 {
     color: #EEAECA;
 }
 
@@ -93,7 +95,14 @@
 }
 
 
-
+/* @media only screen and (max-width: 860px) {
+    .linkContainer__lable {
+        margin: 3% 0 3% 0;
+    }
+    .link__linkContainer {
+        width: 60%;
+    }
+} */
 
 
 

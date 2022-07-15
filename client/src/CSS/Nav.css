@@ -170,7 +170,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
     }
     .mobileNav__link {
         text-decoration: none;
@@ -179,14 +179,16 @@
         color: #FFFFFF;
         font-size: 2.25rem;
         transition: .4s ease-in-out;
-        padding: 4.5% 2.5% 1.5% 2.5%;
         background-size: cover;
         border-radius: 25px;
         text-align: center;
         display: block;
         height: 15%;
-        width: 100%;
+        width: 80%;
         border: .25px dashed #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .button {
         background-color: #FFFF78;
@@ -202,8 +204,22 @@
 
 
 }
+@-moz-document url-prefix() {
+    @media only screen and (max-width: 860px) {
+        .mobileNav {
+            width: 90vw;
+            height: 100vh;
+        }
+    }
+}
+
+
 
 @media only screen and (max-width: 600px) {
+    .mobileNav {
+        width: 100vw;
+        height: 100vh;
+    }
     .Nav__icon {
         margin: 3% 5% 3% 0;
     }

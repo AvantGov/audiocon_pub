@@ -509,6 +509,12 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .Footer__siteMap {
+        padding-right: 7%;
+    }
+}
+
 @media only screen and (max-width: 361px) {
     .Footer__siteMap {
         padding-right: 5%;

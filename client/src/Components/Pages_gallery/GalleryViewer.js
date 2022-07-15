@@ -1,7 +1,7 @@
 // this will load the actual photo stream of images that will be displayed in the viewing space within the GalleryFrame comp.
 // * DEPENDS.
 import React, { useState, useRef } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 
 // * COMPS
@@ -24,6 +24,9 @@ const GalleryViewer = (props) => {
   const scrollingElRef = (ref) => {
     setScrollingElement(ref);
   };
+
+  // for navigating the history object in order to go back (establishes history) 
+  const navigate = useNavigate();
 
   // for getting the images on the page.
   const photo_arr = getImgIds(props.gallery_id);
@@ -107,13 +110,13 @@ const GalleryViewer = (props) => {
         <StickyView height={200}>
           {(proportion) => (
             <div className="basic-sticky-content" id="resgal_end">
-              <Link to="/gallery" className="scrolling-view__link">
-                <div className="link__linkContainer" id="link_galleryClose" onClick={() => {return dispatch(hideGallery())}}>
+              {/* <Link to="/gallery" className="scrolling-view__link"> */}
+                <div className="link__linkContainer" id="link_galleryClose" onClick={() => {return navigate(-1), dispatch(hideGallery())}}>
                   <h1 className="linkContainer__lable" id="lable_galleryClose">
                     Return to Galleries
                   </h1>
                 </div>
-              </Link>
+              {/* </Link> */}
             </div>
           )}
         </StickyView>

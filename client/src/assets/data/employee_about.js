@@ -48,7 +48,7 @@ export const employee_about = [
         key: "EriSch",
         firstName: "Eric",
         lastName: "Schieder",
-        title: "Senior Support Technicians",
+        title: "Senior Support Technician",
         img: "../assets/img/employees/Eschneider.jpeg",
         year: "2019",
         dept: "Technician"
@@ -138,7 +138,7 @@ export const employee_about = [
         key: "AleCou",
         firstName: "Alex",
         lastName: "Couts",
-        title: "Installation Technician",
+        title: "Installation Technician & Web Developer",
         img: "../assets/img/employees/Acouts.jpeg",
         year: "2021",
         dept: 'Technician'
