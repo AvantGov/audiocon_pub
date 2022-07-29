@@ -36,6 +36,22 @@
     color: #FFFFFF;
 }
 
+/* ? start hotfix/enhancement for "drop us a line" linking to email here  */
+.CommercialServices__service > div > div > p > a {
+    color: #000000;
+    font-weight: 900;
+    transition: .7s ease-in-out;
+}
+
+.CommercialServices__service:hover > div > div > p > a {
+    color: #FFFFFF;
+}
+
+.CommercialServices__service > div > div > p > a:hover {
+    color: #1E132A;
+}
+/* end enhancement */
+
 .CommercialServices__service:hover > div > div > h3 > strong {
     color: #EEAECA;
     letter-spacing: 1.5px;
@@ -92,7 +108,6 @@
     background: linear-gradient(270deg, rgba(238,248,248,0.32394964821866246) 0%, rgba(29,97,135,0.8029412448573179) 64%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eef8f8",endColorstr="#1d6187",GradientType=1); 
 }
-
 
 
 .contentContainer__image {

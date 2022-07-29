@@ -24,9 +24,9 @@ const CommercialServices = () => {
                     {/* <hr className='contentContainer__rule'></hr> */}
                     <div className='contentContainer__copyContainer'>
                         <h3 className='copyContainer__title'><strong className="title__strong">Immersive</strong> displays that fit & fill any room</h3>
-                        <p id="restaraunts_bullet1" className='copyContainer__bullet'>&#8226; Immersive displays to wow first time visitors, backed with detailed audio clarity that keeps locals coming back every game day. Audio Contractors is here to supply pinnacle sound quality, with budget and utility in mind.</p>
-                        <p id="restaraunts_bullet2" className='copyContainer__bullet'>&#8226; Each establishment has its own unique challenges, and requires individualized consideration. Luckily our control systems sit at the intersection of convenience and power; allowing our clients to harness control of their lighting, audio, and video with a few swipes & taps.</p>
-                        <p id="restaraunts_bullet3" className='copyContainer__bullet'>&#8226; We have worked with an expansive portfolio of clients in the Southern Wisconsin area, and are always looking for our next success story. Drop us a line if upgrading to high performance AV would help your business grow.</p>
+                        <p id="restaraunts_bullet1" className='copyContainer__bullet'>&#8226; Immersive audio visual solutions that wow first time visitors, backed with detailed audio clarity that keeps locals coming back every game day. Audio Contractors is here to supply pinnacle sound quality, with budget and utility in mind.</p>
+                        <p id="restaraunts_bullet2" className='copyContainer__bullet'>&#8226; With the power of multi-source video matrixing, easily display multiple sports channels across screens to ensure customers never miss a single play. We offer a wide selection of award-winning displays and high-definition video walls.</p>
+                        <p id="restaraunts_bullet3" className='copyContainer__bullet'>&#8226; Our team has worked with an expansive portfolio of clients in the Southern Wisconsin area, and are always looking for our next success story. <a href="mailto:info@audiocontractorsllc.com" id="comm_mailto">Drop us a line</a> if upgrading to high performance AV would help your business grow.</p>
                     </div>
                 </div>
             </div>
@@ -41,8 +41,8 @@ const CommercialServices = () => {
                     <div className='contentContainer__copyContainer'>
                         <h3 className='copyContainer__title'><strong className="title__strong">Simplicity</strong> at the core of the conference</h3>
                         <p id="conference_bullet3" className='copyContainer__bullet'>&#8226; Businesses have adapted to online conferencing tools and their operations now rely on nothing short of the best. High definition audio and video raise the bottom line and get more done. Our clients operate their businesses at rapid pace, and benefit from our systems simplifying a large conference to feel just like answering the phone.</p>
-                        <p id="conference_bullet1" className='copyContainer__bullet'>&#8226; We have delivered effective conferencing and lecture tools to teachers, students, and professionals across industries. By building each client's user interface meticulously for their needs, we instill confidence for users to own and operate their systems day-in-and-day-out, regardless of proficiency level.</p>
-                        <p id="conference_bullet2" className='copyContainer__bullet'>&#8226; From simple one person call rooms to complex multi-site PSA systems, Audio Contractors has the products that help our clients get more work done. While keeping solutions simple, sleek, and user-friendly for everyone.</p>
+                        <p id="conference_bullet1" className='copyContainer__bullet'>&#8226; We have delivered effective conferencing and lecture tools to teachers, students, and professionals across industries. By building each client's user interface meticulously for their needs, we instill confidence for users to understand and operate their systems day-in-and-day-out, regardless of proficiency level.</p>
+                        <p id="conference_bullet2" className='copyContainer__bullet'>&#8226; From simple huddle space to complex executive boardrooms, Audio Contractors has the products that help our clients get more work done.</p>
                     </div>
                 </div>
             </div>
@@ -73,8 +73,8 @@ const CommercialServices = () => {
                     {/* <hr className='contentContainer__rule'></hr> */}
                     <div className='contentContainer__copyContainer'>
                         <h3 className='copyContainer__title'>Keep the party <strong className="title__strong">loud,</strong> and the night <strong className="title__strong">never-ending.</strong></h3>
-                        <p id="nightlife_bullet1" className='copyContainer__bullet'>&#8226; Audio Contractors makes it possible to wow customers with intense sound and immersive video that turn any club into the hottest spot in town. Keep the dance floor packed with return clientele that push the party  until last call.</p>
-                        <p id="nightlife_bullet2" className='copyContainer__bullet'>&#8226; No space limitation can keep our team from maximizing the impact of a venue. Tying in the power of automation allows our clients to own their entire system effectively with ease.</p>
+                        <p id="nightlife_bullet1" className='copyContainer__bullet'>&#8226; Audio Contractors makes it possible to wow customers with intense sound and immersive video that will turn any club into the hottest spot in town. Keep the dance floor packed with return clientele that push the party until last call.</p>
+                        <p id="nightlife_bullet2" className='copyContainer__bullet'>&#8226; No space limitation can keep our team from maximizing the impact of a venue. Tying in the power of automation allows our clients to control their entire system effectively with ease.</p>
                         <p id="nightlife_bullet3" className='copyContainer__bullet'>&#8226; Complete renovation or minor update, we work carefully with each of our clients to design systems that help businesses grow in meaningful ways. Starting small or diving in head-first, Audio Contractors is here to assist each step of the way.</p>
                         <p id="nightlife_bullet3" className='copyContainer__bullet'>&#8226; Delivering top-notch experiences is a key to success, so why not give customers something to talk about?</p>
                     </div>
@@ -90,10 +90,10 @@ const CommercialServices = () => {
                     {/* <hr className='contentContainer__rule'></hr> */}
                     <div className='contentContainer__copyContainer'>
                         <h3 className='copyContainer__title'><strong className="title__strong">The highest quality</strong> audio-visual components <br/>for multi-dwelling units.</h3>
-                        <p id="apartments_bullet1" className='copyContainer__bullet'>&#8226; Luxury living communities require many complex systems to work together in perfect harmony to deliver high class quality of life. Audio Contractors has built lifelong working relationships with many prominent vendors, and are fully prepared to install and maintain a system that  stays in tune.</p>
-                        <p id="apartments_bullet2" className='copyContainer__bullet'>&#8226; Condominiums, townhomes, and gated communities all call for the same synergy: AV wiring design, automated access control, multi-zone lighting, remote camera security .. the list continues. Our team is ready to advise and future proof your comprehensive investment with systems that bring residents together.</p>
+                        <p id="apartments_bullet1" className='copyContainer__bullet'>&#8226; Luxury living communities require many complex systems to work together in perfect harmony to deliver high class quality of life. Audio Contractors has built long standing working relationships with many prominent vendors, and are fully prepared to install and maintain a system that  stays in tune.</p>
+                        <p id="apartments_bullet2" className='copyContainer__bullet'>&#8226; Condominiums, townhomes, assisted living centers, and gated communities all call for the same synergy: AV wiring design, multi-zone lighting, remote camera security .. the list continues. Our team is ready to advise and future proof your comprehensive investment with systems that bring residents together.</p>
                         <p id="apartments_bullet3" className='copyContainer__bullet'>&#8226; Community clubhouses and fitness facilities are increasing in demand among luxury living residents. Treat community members to something special with immersive AV capabilities that are accessible through a few swipes & taps.</p>
-                        <p id="apartments_bullet3" className='copyContainer__bullet'>&#8226; Delivery premium amenities at any investment property with a little help from our team. We're here to make the most out of any room.</p>
+                        <p id="apartments_bullet3" className='copyContainer__bullet'>&#8226; Deliver premium amenities at any investment property with a little help from our team. We're here to make the most out of any room.</p>
                     </div>
                 </div>
             </div>
@@ -123,9 +123,9 @@ const CommercialServices = () => {
                     {/* <hr className='contentContainer__rule'></hr> */}
                     <div className='contentContainer__copyContainer'>
                         <h3 className='copyContainer__title'>Craft the <strong className="title__strong">perfect space</strong> with custom acousticz solutions.</h3>
-                        <p id="reinforcement_bullet1" className='copyContainer__bullet'>&#8226; Modern construction trends often place aesthetics over acoustics, causing unfortunate resonance in public areas. Tame the environment by limiting decay and reverberation with commercial grade acoustic reinforcement.</p>
+                        <p id="reinforcement_bullet1" className='copyContainer__bullet'>&#8226; Modern construction trends often place aesthetics over acoustics, sacrificing audio clarity in critical spaces. Tame the environment by limiting decay and reverberation with commercial grade acoustic reinforcement.</p>
                         <p id="reinforcement_bullet2" className='copyContainer__bullet'>&#8226; Promote communication & collaboration by upping voice intelligibility in the office space. Dial in the perfect amount of hall reverberation for a flawless opening night. This and more are possible with our team's design and installation expertise.</p>
-                        <p id="reinforcement_bullet3" className='copyContainer__bullet'>&#8226; Our experts utilize the capabilities of CAD modeling software to carefully analyze, design, and test room treatment before installation. Delivering true value through purpose-driven planning.</p>
+                        <p id="reinforcement_bullet3" className='copyContainer__bullet'>&#8226; Each treatment system is digitally modeled to carefully analyze, design, and test room treatment before installation. Delivering true value through purpose-driven planning.</p>
                     </div>
                 </div>
             </div>
@@ -141,6 +141,7 @@ const CommercialServices = () => {
                         <h3 className='copyContainer__title'>Filter and mask distractions <strong className="title__strong">in any space.</strong></h3>
                         <p id="masking_bullet1" className='copyContainer__bullet'>&#8226; Office spaces lacking appropriate boundaries for employees to focus have been related to workplace dissatisfaction and lower productivity. Make open office floor plans a success story with speech privacy support from our trusted vendors.</p>
                         <p id="masking_bullet2" className='copyContainer__bullet'>&#8226; Sound masking, when deployed properly, is an economical solution that improves acoustic comfort, and reduces conversational distractions.</p>
+                        <p id="masking_bullet3" className='copyContainer__bullet'>&#8226; Our vendors create masterfully blended solutions that boast the best facets of design & engineering, sourced from a vibrant list of acoustical partners.</p>
                     </div>
                 </div>
             </div>
