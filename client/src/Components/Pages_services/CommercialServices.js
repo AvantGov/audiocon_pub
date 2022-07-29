@@ -115,14 +115,14 @@ const CommercialServices = () => {
             </div>
             <div className='CommercialServices__service'>
                 <div className='service__titleContainer'>
-                    <h1 id="reinforcement_title" className='titleContainer__title'>Commercial-Grade Audio & Acoustic Reinforcement</h1>
+                    <h1 id="reinforcement_title" className='titleContainer__title'>Commercial-Grade Acoustic Treatment</h1>
                     {/* <p className='titleContainer__subtitle'>hello hello hello helllo helloo helloo hleooo heloo</p> */}
                 </div>
                 <div className='service__contentContainer'>
                     <div id="reinforcement_image" className='contentContainer__image'></div>
                     {/* <hr className='contentContainer__rule'></hr> */}
                     <div className='contentContainer__copyContainer'>
-                        <h3 className='copyContainer__title'>Craft the <strong className="title__strong">perfect space</strong> with commercial acoustic reinforcement.</h3>
+                        <h3 className='copyContainer__title'>Craft the <strong className="title__strong">perfect space</strong> with custom acousticz solutions.</h3>
                         <p id="reinforcement_bullet1" className='copyContainer__bullet'>&#8226; Modern construction trends often place aesthetics over acoustics, causing unfortunate resonance in public areas. Tame the environment by limiting decay and reverberation with commercial grade acoustic reinforcement.</p>
                         <p id="reinforcement_bullet2" className='copyContainer__bullet'>&#8226; Promote communication & collaboration by upping voice intelligibility in the office space. Dial in the perfect amount of hall reverberation for a flawless opening night. This and more are possible with our team's design and installation expertise.</p>
                         <p id="reinforcement_bullet3" className='copyContainer__bullet'>&#8226; Our experts utilize the capabilities of CAD modeling software to carefully analyze, design, and test room treatment before installation. Delivering true value through purpose-driven planning.</p>
@@ -140,8 +140,7 @@ const CommercialServices = () => {
                     <div className='contentContainer__copyContainer'>
                         <h3 className='copyContainer__title'>Filter and mask distractions <strong className="title__strong">in any space.</strong></h3>
                         <p id="masking_bullet1" className='copyContainer__bullet'>&#8226; Office spaces lacking appropriate boundaries for employees to focus have been related to workplace dissatisfaction and lower productivity. Make open office floor plans a success story with speech privacy support from our trusted vendors.</p>
-                        <p id="masking_bullet2" className='copyContainer__bullet'>&#8226; Sound masking, when deployed properly, is a low cost alternative to improving acoustic comfort, and reducing conversational distractions.</p>
-                        <p id="masking_bullet3" className='copyContainer__bullet'>&#8226; Need to go further? We are able to provide corporate facilities with active 70 watt noise canceling installations that integrate organically into ventilation systems.</p>
+                        <p id="masking_bullet2" className='copyContainer__bullet'>&#8226; Sound masking, when deployed properly, is an economical solution that improves acoustic comfort, and reduces conversational distractions.</p>
                     </div>
                 </div>
             </div>

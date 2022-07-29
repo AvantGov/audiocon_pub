@@ -2,7 +2,7 @@ export const employee_about = [
     {
         key: "JohDee",
         firstName: "John (Deemer)",
-        lastName: "Deems",
+        lastName: "Deem",
         title: "Owner & Founder",
         img: "../assets/img/employees/Jdeem.jpeg",
         year: "1998",
@@ -12,7 +12,7 @@ export const employee_about = [
         key: "BenEng",
         firstName: "Ben",
         lastName: "Engwall",
-        title: "Managing Technician",
+        title: "Managing Director",
         img: "../assets/img/employees/Bengwall.jpeg",
         year: "2015",
         dept: "Management"
@@ -39,7 +39,7 @@ export const employee_about = [
         key: "JerTif",
         firstName: "Jeremy",
         lastName: "Tiffany",
-        title: "Senior Support Technician",
+        title: "Senior System Support Engineer",
         img: "../assets/img/employees/Jtiffany.jpeg",
         year: "1999",
         dept: "Technician"
@@ -47,8 +47,8 @@ export const employee_about = [
     {
         key: "EriSch",
         firstName: "Eric",
-        lastName: "Schieder",
-        title: "Senior Support Technician",
+        lastName: "Schnieder",
+        title: "System Support Engineer",
         img: "../assets/img/employees/Eschneider.jpeg",
         year: "2019",
         dept: "Technician"
