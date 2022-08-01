@@ -1,3 +1,5 @@
+There are new photos in the DB that have not been added to the galleries yet. 
+
 # SPA Component Structure: 
 
 
