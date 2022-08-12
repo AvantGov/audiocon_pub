@@ -13,7 +13,7 @@ const GalleryBanner = () => {
         <div className='GalleryBanner'>
             <div className="GalleryBanner__titleContainer">
                 <h1 className="titleContainer__title">Galleries</h1>
-                <h3 className="titleContainer__caption">Select a service category below to see our work.</h3>
+                <h3 className="titleContainer__caption">Select a service category below to see our products and work.</h3>
             </div>
             <div className="GalleryBanner__copyContainer">
                 <h3 className="copyContainer__title">Our <span className="color">Work</span></h3>

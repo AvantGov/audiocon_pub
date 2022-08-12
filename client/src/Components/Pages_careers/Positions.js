@@ -37,12 +37,9 @@ const Positions = () => {
                            })}
                        </div>
                         <div className='job__compensationContainer'>
-                            <h3 className='compensationContainer__title'>Compensation:</h3>
                             <div className='compensationContainer__detailContainer'>
-                                <p className='detailContainer__subtitle'><strong>Base Pay |</strong> {item.compensation.basePay}</p>
                                 <div className='detailContainer__benefitsContainer'>
                                     <h3 className='benefitsContainer__title'>Benefits</h3>
-                                    <hr className='benefitsContainer__rule' />
                                     <div className='benefitsContainer__benefitsBox'>
                                         {item.compensation.benefits.map((bullet) => {   
                                             return(
