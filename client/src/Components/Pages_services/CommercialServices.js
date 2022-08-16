@@ -122,7 +122,7 @@ const CommercialServices = () => {
                     <div id="reinforcement_image" className='contentContainer__image'></div>
                     {/* <hr className='contentContainer__rule'></hr> */}
                     <div className='contentContainer__copyContainer'>
-                        <h3 className='copyContainer__title'>Craft the <strong className="title__strong">perfect space</strong> with custom acousticz solutions.</h3>
+                        <h3 className='copyContainer__title'>Craft the <strong className="title__strong">perfect space</strong> with custom acoustical solutions.</h3>
                         <p id="reinforcement_bullet1" className='copyContainer__bullet'>&#8226; Modern construction trends often place aesthetics over acoustics, sacrificing audio clarity in critical spaces. Tame the environment by limiting decay and reverberation with commercial grade acoustic reinforcement.</p>
                         <p id="reinforcement_bullet2" className='copyContainer__bullet'>&#8226; Promote communication & collaboration by upping voice intelligibility in the office space. Dial in the perfect amount of hall reverberation for a flawless opening night. This and more are possible with our team's design and installation expertise.</p>
                         <p id="reinforcement_bullet3" className='copyContainer__bullet'>&#8226; Each treatment system is digitally modeled to carefully analyze, design, and test room treatment before installation. Delivering true value through purpose-driven planning.</p>
