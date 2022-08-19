@@ -1,8 +1,146 @@
 # SPA Component Structure: 
+App
+└ Nav
+
+└ HomePage
+	└ Intro
+	└ HomePageGallery 
+	└ About Us
+	└ CoServices (company services)
+	└ TestimonialsPreview 
+	└ Partners 
+	└ RSS  
+		
+└ ServicesList
+	└ ServiceBanner 
+	└ Commercial Services²  
+	└ Residential Services²  
+	└ Brands¹²  
+
+└ Gallery
+	└ Gallery Banner 
+	
+	└ Commercial Gallery List¹
+		└ Gallery Waiting Screen
+		└ Gallery Viewer¹ 
+			└ Gallery Frame¹
+			└ Start Gal
+	
+	└ Residential Gallery List
+		└ Gallery Waiting Screen
+		└ Gallery Viewer¹ 
+			└ Gallery Frame¹
+			└ Start Gal
+	
+└ Team
+	└ TeamIntro
+	└ TeamList¹
+
+└ Careers
+	└ ApplyBanner  
+	└ Apply
+		└ Positions
+			└ Sales Application 
+			└ Tech Application
+
+└ Confirmation³  
+
+└ NotFound
+
+└ Footer
+
+└ Copyright
+-----------------
+¹ Reliant on local application data file.
+
+² This component is rendered at the top level of App for marketing purposes (ease of access). In regards to understanding the UX of the application, these components can be seen as children of ServicesList, even if they are not from a technical perspective. 
+
+³ This component is rendered at the top-level of App once the user has successfully submitted a job application. 
+
 
 
 # Services
-Job Application 
+
+## Job Application 
+### Purpose:
+The job application feature of the website allows for a user to submit basic information about their expertise should they be interested in a position at our company. The information is collected through a digital form. 
+
+### Workflow 
+Careers >> Apply on our Website >> Select Position >> Enter Information >> error 
+checking >> Confirmation. 
+
+The form utilizes basic HTML form validation checking on the front end to present the user with error messaging coordinated to each entry field. The user is barred from submitting the form until validation criteria have been met. 
+
+Once submission has been executed, the user is redirected to the /Confirmation screen. 
+
+### Specs 
+Libraries: 
+- react-hook-form | https://react-hook-form.com/
+
+react-hook-form is used to collect and validate user input before submission. At the time of submission, the form library delivers JSON information to the EmailJS API. 
+
+	Relevant Files: 
+	- client/src/Components/Pages_careers/TechApplication.js 
+	- client/src/Components/Pages_careers/SalesApplication.js
+
+External APIs:
+- EmailJS | https://www.emailjs.com/
+
+The EmailJS API is consuming the JSON object created by the react-hook-form library, along with required API authentication info and processing directions. Our account with EmailJS has corresponding templates that format the user input into readable fashion. Once the submission has been received and formatted, the EmailJS API uses the info@audiocontractorsllc.com email account to send a preformatted email with user submissions ... to itself. 
+
+I'll say it again to clarify: emailJS automates info@audiocontractorsllc.com to send itself emails each time a user submits an application from our website. I agree it's a little redundant, but it's effecient and *works*.
+
+## Galleries 
+
+### Purpose
+The Gallery service provides viewing access to our image database so users are able to browse a preselected set of images. The images are presented in categories for convenience. 
+
+### Workflow 
+Gallery >> Select Market (Comm or Resi) >> Select Category >> Loading Screen >> Gallery instructions > *(scrolling navigation)* > Gallery View
+
+### Specs
+Overview: 
+The goal of the gallery was to avoid loading resource-intensive content until the user specifically requests it. When the request is made, Suspense has been utilized to communicate loading state to the user. 
+
+The workflow and data flow sort of go hand-in-hand here ... 
+
+Select Market (Comm or Resi) === Action informs app to use galleries_resi.js or galleries_comm.js   
+
+View Categories === galleries_xxxx.js is used to display category list
+
+Select Category === When category is selected, ID from galleries_xxxx.js is used to obtain database IDs from photo_ids.js that will be consumed in the API call.
+
+Loading Screen ===  When API call is made, application state isLoading is set to true
+
+Gallery View === last img element returned from API call changes application state isLoading to false, displaying the gallery to the user. 
+
+This is pretty confusing to read through so i made a TL;DR diagram:
+![](../Archive/galleryiesdiagram.jpg)
+
+Local Data: 
+- /client/src/assets/data/galleries_comm.js
+	- used to display list of commercial categories. Contains ID that is consumed in order to retrieve the selected gallery. 
+
+- /client/src/assets/data/galleries_resi.js
+	- used to diplay a list of residential categories. Contains ID that is consumed in order to retrieve the selected gallery.
+
+- /client/src/assets/data/galleries.js
+	- complete list of galleries and ID's (unused)
+
+- /client/src/assets/data/photo_ids.js
+	- Contains organized objects of image IDs from the database, sorted by category. These IDs are consumed by the Gallery Viewer to construct a URL that will be passed into the API call to the database. Search: constructURL()
+
+Please refer to Updating Galleries Guide to add or remove images from the gallery.
+
+### Do NOT attempt to remove images by deleting from database! This would be a breaking change to the website. 
+
+
+
+
+
+
+
+
 
 
 # Depends. Libraries 
@@ -54,11 +192,11 @@ google project ID: cosmic-answer-350614
 
 
 # Design Asset Logs 
-[ ] will need to make a favicon image to use for the tab header and apple touch logo, thinking that just a simple crop of the "AC" in the logo and then vectorizing it will be the best move. 
+[x] will need to make a favicon image to use for the tab header and apple touch logo, thinking that just a simple crop of the "AC" in the logo and then vectorizing it will be the best move. 
 
-[ ] make a banner that has a bunch of the brands cascaded across LTR for the brands button and background transition.  
+[x] make a banner that has a bunch of the brands cascaded across LTR for the brands button and background transition.  
 
-[ ] what i need more photos of: 
+[x] what i need more photos of: 
 
 	[x] sound masking (currently: 1) 
 		- fiskars, phoenix radiology, bank of broadhead, 
@@ -93,17 +231,17 @@ google project ID: cosmic-answer-350614
 
 
 # Fix Log
-[ ] Probably do this when doing mobile responsive implementation, but will need to make the photo viewers swipe-able. (there is an article on how to do this in the notion. The one used to make the photo reels.)
+[0] Probably do this when doing mobile responsive implementation, but will need to make the photo viewers swipe-able. (there is an article on how to do this in the notion. The one used to make the photo reels.)
 
 [x] figure out how the hell to prevent the compiler from setting up the phone and email addresses incorrectly in chrome browsers 
 
 [ ] will need to stabilize the application forms with redux because currently they are just wiping whenever the page is re-loaded 
 
-[ x] implement a better case of switching the galleryView state from true back to false in order to show the Nav, Footer whenever jumping around pages.
+[x] implement a better case of switching the galleryView state from true back to false in order to show the Nav, Footer whenever jumping around pages.
 	- currently there is a sweet little hot fix in there where GalleryList pushes out a change of state (should the user navigate back) and the button at the ResGal_End piece also pushes out this same change, but as the site grows and more links to other pages appear on other pages (workflows start to matrix each other) this is not going to suffice. 
 - will most likely involve some useHistory or useLocation implementation. 
 
-[] hide last pass/nord pass from job application form + contact us form 
+[x] hide last pass/nord pass from job application form + contact us form 
 
 ## CSS clean up tasks: 
 [ ] implement an id system to have images placed top, left, center, right, etc. as needed in the galleries 
