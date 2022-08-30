@@ -28,6 +28,7 @@ export const photos_ids = {
     997: [
         "dc682d61-581c-41cd-337b-53f731953d00",
         "4439389f-3c39-4301-c650-7d39a1511300",
+        "99ef6466-11a1-4a40-752c-b7424a74c900",
         "14553e5e-812b-4bba-c4d8-a3f0630da600",
         "b6c85372-a271-455c-41cf-7430d5af8700",
         "a66e514d-add3-4e10-b581-0860144a0200",
@@ -37,8 +38,11 @@ export const photos_ids = {
     // updated 06/17 (Clubs)
     996: [
         "4c4b6263-9029-4af7-2f5e-28b80796f600",
-        "661f41f5-5e48-442c-001d-e79bcf421600",
-        "0ecd0113-d2c8-4877-e00f-538d673c9300",
+        "56d897d1-9cc7-416f-1a7c-17b51299e500",
+        "5eb2077b-0ff8-4d12-79ac-14a120d71300",
+        "e4b6e1f8-ef61-4814-24ae-83991ad91a00",
+        "e1eaf1ea-85ef-4b5e-cc1b-ba13ced95500",
+        
     ],
 
     // updated 06/17 (Apartments)
@@ -130,10 +134,10 @@ export const photos_ids = {
 
     // updated 06/17 (Lighting)
     988: [
-        "e1a8b8ba-2443-4c0f-0e62-624ce174dc00",
         "b1d54c4a-e6a4-491e-2948-c0f1fdf87b00",
-        "177ced50-a53c-4881-c905-b690a45cfd00",
-        "edb4041c-686a-430e-09e6-592354630800"
+        "e40af919-27f1-4598-3795-ebe190fbf900",
+        "a769e02f-a1ca-460a-9f20-49e038959c00",
+        
     ],
 
     // good to go as of 08/11/22 (Networking)
