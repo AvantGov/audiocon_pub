@@ -90,21 +90,21 @@
 
 /* image assignments for the different parts of this page. */
 #hometheater_image {
-    background-image: url("../../assets/img/services/hometheater.JPG");
+    background-image: url("../../assets/img/services/hometheater.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 #wholehouse_image {
-    background-image: url("../../assets/img/services/wholehome.png");
+    background-image: url("../../assets/img/services/wholehome.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 #automation_image {
-    background-image: url("../../assets/img/services/automation.png");
+    background-image: url("../../assets/img/services/automation.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right 35% top 0%;

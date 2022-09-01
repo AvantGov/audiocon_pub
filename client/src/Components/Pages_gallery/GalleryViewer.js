@@ -80,7 +80,7 @@ const GalleryViewer = (props) => {
                           className="imgContainer__img"
                           src={constructURL(id)}
                           style={imgStyle}
-                          alt="dummy copy"
+                          alt="Loading (link may appear broken)"
                           // for testing purposes:
                           // onLoad={lastLoad ? setTimeout(() => {setIsLoading(false)}, 5000) : null}
                           onLoad={() => {return setIsLoading(false)}}
@@ -97,7 +97,7 @@ const GalleryViewer = (props) => {
                               className="imgContainer__img"
                               src={constructURL(id)}
                               style={imgStyle}
-                              alt="dummy"
+                              alt="Loading (link appear broken)"
                               // for testing purposes:
                               // onLoad={lastLoad ? setTimeout(() => {setIsLoading(false)}, 5000) : null}
                             />
@@ -110,13 +110,12 @@ const GalleryViewer = (props) => {
         <StickyView height={200}>
           {(proportion) => (
             <div className="basic-sticky-content" id="resgal_end">
-              {/* <Link to="/gallery" className="scrolling-view__link"> */}
+              {/* eslint-disable-next-line */}
                 <div className="link__linkContainer" id="link_galleryClose" onClick={() => {return navigate(-1), dispatch(hideGallery())}}>
                   <h1 className="linkContainer__lable" id="lable_galleryClose">
                     Return to Galleries
                   </h1>
                 </div>
-              {/* </Link> */}
             </div>
           )}
         </StickyView>
