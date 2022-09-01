@@ -115,7 +115,7 @@ Loading Screen ===  When API call is made, application state isLoading is set to
 Gallery View === last img element returned from API call changes application state isLoading to false, displaying the gallery to the user. 
 
 ### This is pretty confusing to read through so i made a TL;DR diagram:
-![](../Archive/galleryiesdiagram.jpg)
+https://imagedelivery.net/rpS5WjBdELVvj2iH8_wiuw/28f9bccd-6bb8-42ad-11ec-12f2b6c22a00/public
 
 Local Data: 
 - /client/src/assets/data/galleries_comm.js
