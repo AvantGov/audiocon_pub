@@ -1,5 +1,8 @@
 # SPA Component Structure: 
 App
+	
+	└ Nav
+
 	└ HomePage
 		└ Intro
 		└ HomePageGallery 
