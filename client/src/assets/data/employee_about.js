@@ -4,7 +4,7 @@ export const employee_about = [
         firstName: "John (Deemer)",
         lastName: "Deems",
         title: "Owner & Founder",
-        img: "../assets/img/employees/Jdeem.jpeg",
+        img: "/employees/Jdeem.jpeg",
         year: "1998",
         dept: "Management"
     },
@@ -13,7 +13,7 @@ export const employee_about = [
         firstName: "Ben",
         lastName: "Engwall",
         title: "Managing Technician",
-        img: "../assets/img/employees/Bengwall.jpeg",
+        img: "/employees/Bengwall.jpeg",
         year: "2015",
         dept: "Management"
     },
@@ -22,7 +22,7 @@ export const employee_about = [
         firstName: "Kris",
         lastName: "Hodgkins",
         title: "General Manager",
-        img: "../assets/img/employees/Khodgkins.jpeg",
+        img: "/employees/Khodgkins.jpg",
         year: "2014",
         dept: "Sales"
     },
@@ -31,7 +31,7 @@ export const employee_about = [
         firstName: "Erica",
         lastName: "Gonzales",
         title: "Book Keeper",
-        img: "../assets/img/employees/Egonzales.jpeg",
+        img: "/employees/Egonzalez.jpeg",
         year: "2014",
         dept: "Admin"
     },
@@ -40,7 +40,7 @@ export const employee_about = [
         firstName: "Jeremy",
         lastName: "Tiffany",
         title: "Senior Support Technician",
-        img: "../assets/img/employees/Jtiffany.jpeg",
+        img: "/employees/Jtiffany.jpg",
         year: "1999",
         dept: "Technician"
     },
@@ -49,7 +49,7 @@ export const employee_about = [
         firstName: "Eric",
         lastName: "Schieder",
         title: "Senior Support Technician",
-        img: "../assets/img/employees/Eschneider.jpeg",
+        img: "/employees/Eschneider.jpg",
         year: "2019",
         dept: "Technician"
     },
@@ -58,7 +58,7 @@ export const employee_about = [
         firstName: "Brett",
         lastName: "Wright",
         title: "Lead Technician",
-        img: "../assets/img/employees/Bwright.jpeg",
+        img: "/employees/Bwright.jpeg",
         year: "2016",
         dept: "Technician"
     },
@@ -67,7 +67,7 @@ export const employee_about = [
         firstName: "Donnie",
         lastName: "Lucker",
         title: "Lead Technician",
-        img: "../assets/img/employees/Dlucker.jpeg",
+        img: "/employees/Dlucker.jpg",
         year: "2009",
         dept: "Technician"
     },
@@ -76,7 +76,7 @@ export const employee_about = [
         firstName: "Scott",
         lastName: "Deitz",
         title: "Sales & Project Mgmt.",
-        img: "../assets/img/employees/Sdeitze.jpeg",
+        img: "/employees/Sdeitze.jpg",
         year: "2022",
         dept: "Sales"
     },
@@ -85,7 +85,7 @@ export const employee_about = [
         firstName: "Bill",
         lastName: "Marr",
         title: "Sales & Project Mgmt.",
-        img: "../assets/img/employees/BMarr.jpg",
+        img: "/employees/BMarr.jpg",
         year: "2022",
         dept: "Sales"
     },
@@ -94,7 +94,7 @@ export const employee_about = [
         firstName: "Curtis",
         lastName: "Elthorp",
         title: "Customer Support Specialist",
-        img: "../assets/img/employees/Celethorp.jpeg",
+        img: "/employees/Celethorp.jpg",
         year: "2019",
         dept: "Admin"
     },
@@ -103,7 +103,7 @@ export const employee_about = [
     //     firstName: "Cody",
     //     lastName: "Sharkey",
     //     title: "Installation Technician",
-    //     img: "../assets/img/employees/",
+    //     img: "/employees/",
     //     year: "2019",
     //     dept: "Technician"
     // },
@@ -112,7 +112,7 @@ export const employee_about = [
         firstName: "Cody",
         lastName: "Ruhman",
         title: "Installation Technician",
-        img: "../assets/img/employees/Cruhman.jpeg",
+        img: "/employees/Cruhman.jpg",
         year: "2018",
         dept: "Technician"
     },
@@ -121,7 +121,7 @@ export const employee_about = [
         firstName: "Cam",
         lastName: "(Jamz) Bishop",
         title: "Installation Technician",
-        img: "../assets/img/employees/Cbishop.jpeg",
+        img: "/employees/Cbishop.jpg",
         year: "2019",
         dept: "Technician"
     },
@@ -130,7 +130,7 @@ export const employee_about = [
         firstName: "Liam",
         lastName: "Zhe",
         title: "Installation Technician",
-        img: "../assets/img/employees/Lzhe.jpeg",
+        img: "/employees/Lzhe.jpg",
         year: "2021",
         dept: "Technician"
     },
@@ -138,8 +138,8 @@ export const employee_about = [
         key: "AleCou",
         firstName: "Alex",
         lastName: "Couts",
-        title: "Installation Technician & Web Developer",
-        img: "../assets/img/employees/Acouts.jpeg",
+        title: "Installation Technician",
+        img: "/employees/Acouts.jpeg",
         year: "2021",
         dept: 'Technician'
     },
@@ -148,7 +148,7 @@ export const employee_about = [
         firstName: "Tristan",
         lastName: "Tiffany",
         title: "Installation Technician",
-        img: "../assets/img/employees/Ttiffany.jpeg",
+        img: "/employees/Ttiffany.jpg",
         year: "2019",
         dept: "Technician"
     },
@@ -157,7 +157,7 @@ export const employee_about = [
         firstName: "Rob",
         lastName: "Murphy",
         title: "Installation Technician",
-        img: "../assets/img/employees/Rmurphy.jpeg",
+        img: "/employees/Rmurphy.jpg",
         year: "2021",
         dept: "Technician"
     }
@@ -170,13 +170,13 @@ export const employee_about = [
 //     firstName: "",
 //     lastName: "",
 //     title: "",
-//     img: "../assets/img/employees/[first initial][last name].jpg", **(foot note)
+//     img: "/employees/[first initial][last name].jpg", **(foot note)
 //     year: "",
 //     dept: ""
 // }
 
 // ** Footnote:
-// you will need to add a JPEG img to the "client/src/assets/img/employees" directory of this code base
+// you will need to add a JPEG img to the "/employees" directory of this code base
 // in order to have the image show up on the page, before making any changes. 
 // I recommend following the template suggestion given above.
  
