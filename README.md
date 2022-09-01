@@ -1,55 +1,55 @@
 # SPA Component Structure: 
 App
-└ Nav
+	└ Nav
 
-└ HomePage
-	└ Intro
-	└ HomePageGallery 
-	└ About Us
-	└ CoServices (company services)
-	└ TestimonialsPreview 
-	└ Partners 
-	└ RSS  
+	└ HomePage
+		└ Intro
+		└ HomePageGallery 
+		└ About Us
+		└ CoServices (company services)
+		└ TestimonialsPreview 
+		└ Partners 
+		└ RSS  
 		
-└ ServicesList
-	└ ServiceBanner 
-	└ Commercial Services²  
-	└ Residential Services²  
-	└ Brands¹²  
+	└ ServicesList
+		└ ServiceBanner 
+		└ Commercial Services²  
+		└ Residential Services²  
+		└ Brands¹²  
 
-└ Gallery
-	└ Gallery Banner 
-	
-	└ Commercial Gallery List¹
-		└ Gallery Waiting Screen
-		└ Gallery Viewer¹ 
-			└ Gallery Frame¹
+	└ Gallery
+		└ Gallery Banner 
+		
+		└ Commercial Gallery List¹
+			└ Gallery Waiting Screen
+			└ Gallery Viewer¹ 
+				└ Gallery Frame¹
+				└ Start Gal
+		
+		└ Residential Gallery List
+			└ Gallery Waiting Screen
+			└ Gallery Viewer¹ 
+				└ Gallery Frame¹
 			└ Start Gal
-	
-	└ Residential Gallery List
-		└ Gallery Waiting Screen
-		└ Gallery Viewer¹ 
-			└ Gallery Frame¹
-			└ Start Gal
-	
-└ Team
-	└ TeamIntro
-	└ TeamList¹
+		
+	└ Team
+		└ TeamIntro
+		└ TeamList¹
 
-└ Careers
-	└ ApplyBanner  
-	└ Apply
-		└ Positions
-			└ Sales Application 
-			└ Tech Application
+	└ Careers
+		└ ApplyBanner  
+		└ Apply
+			└ Positions
+				└ Sales Application 
+				└ Tech Application
 
-└ Confirmation³  
+	└ Confirmation³  
 
-└ NotFound
+	└ NotFound
 
-└ Footer
+	└ Footer
 
-└ Copyright
+	└ Copyright
 -----------------
 ¹ Reliant on local application data file.
 
