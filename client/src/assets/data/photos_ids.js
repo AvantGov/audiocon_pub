@@ -133,7 +133,9 @@ export const photos_ids = {
         "b1d54c4a-e6a4-491e-2948-c0f1fdf87b00",
         "e40af919-27f1-4598-3795-ebe190fbf900",
         "a769e02f-a1ca-460a-9f20-49e038959c00",
-        
+        "e1a9584e-9b1b-4f3d-23df-9115c0edf800",
+        "6b98c836-a90f-4acc-f94f-3f9d4df18800",
+        "257d97b0-dd03-43af-530d-850a9b64d300",        
     ],
 
     // good to go as of 08/11/22 (Networking)
