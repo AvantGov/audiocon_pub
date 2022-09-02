@@ -1,123 +1,71 @@
-/* plugging in the imgs here since the JS files aren't able to resolve the URL arguments 
-when handed in the with the style={} prop */
+/* used to fine-tune where the images are framed so that no-one's face is cut off.*/
 
 #BenEng {
-    background-image: url("../../assets/img/employees/Bengwall.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: center;
 }
 
 #JohDee {
-    background-image: url("../../assets/img/employees/Jdeem.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: center;
 }
 
 #EriGon {
-    background-image: url("../../assets/img/employees/Egonzalez.jpeg");
-    background-position: left;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: left;
 }
 
 #JerTif {
-    background-image: url("../../assets/img/employees/Jtiffany.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: center
 }
 
 #KriHod {
-    background-image: url("../../assets/img/employees/Khodgkins.jpg");
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: top;
 }
 
 #ScoDei {
-    background-image: url("../../assets/img/employees/Sdeitze.jpg");
-    background-position: top 25% left 0;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: top 25% left 0;
 }
 
 #BilMar {
-    background-image: url("../../assets/img/employees/BMarr.jpg");
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: top center;
 }
 
 #CurEle {
-    background-image: url("../../assets/img/employees/Celethorp.jpg");
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: top;
 }
 
 #EriSch {
-    background-image: url("../../assets/img/employees/Eschneider.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: center;
 }
 
 #CodRuh {
-    background-image: url("../../assets/img/employees/Cruhman.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: center;
 }
 
 #BreWri {
-    background-image: url("../../assets/img/employees/Bwright.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: center;
 }
 
 #DonLuc {
-    background-image: url("../../assets/img/employees/Dlucker.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: center;
 }
 
 #CamBis {
-    background-image: url("../../assets/img/employees/Cbishop.jpg");
-    background-position: right;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: right;
 }
 
 #LiaZhe {
-    background-image: url("../../assets/img/employees/Lzhe.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: center;
 }
 
 #TriTif {
-    background-image: url("../../assets/img/employees/Ttiffany.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: center;
 }
 
 #AleCou {
-    background-image: url("../../assets/img/employees/Acouts.jpeg");
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: top;
 }
 
 #RobMur {
-    background-image: url("../../assets/img/employees/Rmurphy.jpg");
-    background-position: left;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: left;
 }
 
 /*  this is the actual styling for the page: */
@@ -167,7 +115,9 @@ when handed in the with the style={} prop */
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    object-fit: cover;
 }
+
 
 .employee__copyContainer {
     /* border: 1px solid purple; */
