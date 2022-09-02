@@ -110,7 +110,6 @@
 
 }
 
-
 .employee__img {
     height: 450px;
     width: 100%;
@@ -133,7 +132,7 @@
 
 .copyContainer__name {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 4rem;
+    font-size: 3rem;
     width: 100%;
     text-align: center;
 }
@@ -177,7 +176,7 @@
 
 .info__position {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2.25rem;
+    font-size: 1.75rem;
     font-weight: 600;
     color: #000000;
     opacity: 70%;
@@ -186,11 +185,12 @@
 
 .info__years {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
+    font-size: 1.25rem;
     color: #000000;
     font-style: italic;
     letter-spacing: .75px;
     opacity: 60%;
+    padding-top: 2%;
 }
 
 

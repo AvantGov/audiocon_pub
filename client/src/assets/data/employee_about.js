@@ -2,7 +2,7 @@ export const employee_about = [
     {
         key: "JohDee",
         firstName: "John (Deemer)",
-        lastName: "Deems",
+        lastName: "Deem",
         title: "Owner & Founder",
         img: "/employees/Jdeem.jpeg",
         year: "1998",
@@ -14,6 +14,7 @@ export const employee_about = [
         lastName: "Engwall",
         title: "Managing Technician",
         img: "/employees/Bengwall.jpeg",
+
         year: "2015",
         dept: "Management"
     },
@@ -42,6 +43,7 @@ export const employee_about = [
         lastName: "Tiffany",
         title: "Senior Support Technician",
         img: "/employees/Jtiffany.jpg",
+
         year: "1999",
         dept: "Technician"
     },
