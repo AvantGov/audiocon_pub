@@ -422,7 +422,7 @@ const SalesApplication = () => {
                     {errors.jobhistory_desc_3 && <li id="jobhistory_desc_3" className='salesapplication__error'>&#8226; Please describe your responsibilities while in this position. (Job 3)</li>} 
                 </ul>
                 </div>
-                <input type="submit"/>
+                <input type="submit" lable="submit" value="Submit"/>
             </form>
         </div>
     ); 

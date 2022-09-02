@@ -5,7 +5,6 @@ export const photos_ids = {
         "593f5548-9f66-4f54-57ca-4b162d638b00",
         "f27b9df7-9c5e-4953-34ab-368bbcd94600",
         "a8da4f46-cd22-4e40-053d-b97a28b86a00",
-        "9aeac281-ac4a-4051-8e37-35bc85bf8100",
         "39b5a953-3417-4290-a844-3fa00c043200"
     ],
 
@@ -50,11 +49,8 @@ export const photos_ids = {
         "4949a43c-eb51-4833-19e3-af17b3a78900",
         "3073399c-3781-4afa-7daf-2458ae93f200",
         "4998e617-f16f-4c43-de02-1ecc3a4b7c00",
-        "7e185ebb-d0ee-4fb8-8d0b-ae4078ac3300",
         "b5d2e508-2b1d-4bfc-6538-4bf22df01b00",
         "3135f2fa-0f31-4bad-923a-c3e567a5d200",
-        "27e54255-d35e-4aa9-fa98-f8fe7978f800",
-        "e3cede4a-9f6e-4293-36f8-4cff02a70900"
     ],
 
     // updated 06/17 (Retail) currently disabled and will not be updated until re-installed

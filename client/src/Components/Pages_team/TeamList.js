@@ -17,7 +17,7 @@ const TeamList = () => {
                     counter += 1
                     return (
                         <div key={item.key} className='employeeContainer__employee' id={`employee_${counter}`}>
-                            <img src={item.img} id={item.key} className="employee__img" alt="employee image" />
+                            <img src={item.img} id={item.key} className="employee__img" alt="employee" />
                     
                             <div className='employee__copyContainer'>
                                 <h3 className="copyContainer__name"><span className="firstName">{item.firstName}</span><span className="lastName">{item.lastName}</span></h3>
